@@ -1,0 +1,55 @@
+name: UI customization
+description: Propose a UI text or language file customization for an Adiscon product.
+title: "[UI Customization]: "
+labels:
+  - type:ux-improvement
+  - status:needs-triage
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Select the product this request applies to.
+      options:
+        - WinSyslog
+        - EventReporter
+        - MonitorWare Agent
+        - rsyslog Windows Agent
+    validations:
+      required: true
+
+  - type: input
+    id: language_file
+    attributes:
+      label: Language file
+      description: Name the relevant language file if known.
+      placeholder: example-file-name
+    validations:
+      required: false
+
+  - type: textarea
+    id: requested_change
+    attributes:
+      label: Requested change
+      description: Describe the text or UI customization you want.
+      placeholder: Describe the requested change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Explain why this change is needed.
+      placeholder: Explain the reason for the change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: Provide an example of the current and desired wording if available.
+      placeholder: Current text -> Proposed text
+    validations:
+      required: false
