@@ -35,6 +35,10 @@ Useful starting points:
 
 See also: [docs/public-roadmap-setup.md](docs/public-roadmap-setup.md)
 
+Current public roadmap:
+
+- https://github.com/orgs/Adiscon/projects/11
+
 This roadmap is a communication and prioritization tool, not a hard delivery promise.
 
 ## What this repo is not
@@ -45,6 +49,7 @@ This roadmap is a communication and prioritization tool, not a hard delivery pro
 
 ## Where to go for what
 
+- Roadmap: use the public roadmap project above
 - Roadmap and feature ideas: open an issue in this repository
 - Roadmap feedback: open a roadmap feedback issue in this repository
 - UI wording or translation suggestions: open a UI wording / translation issue in this repository
