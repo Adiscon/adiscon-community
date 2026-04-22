@@ -15,18 +15,22 @@ fi
 
 echo "repo: ${REPO}"
 
-# Fetch existing label names once. We keep this list updated as we create labels.
 existing_labels="$(gh label list --repo "${REPO}" --limit 1000 --json name --jq '.[].name' || true)"
 
 created=0
 updated=0
+deleted=0
+
+has_label() {
+  printf '%s\n' "${existing_labels}" | grep -Fx -- "$1" >/dev/null 2>&1
+}
 
 apply_label() {
   name="$1"
   color="$2"
   description="$3"
 
-  if printf '%s\n' "${existing_labels}" | grep -Fx -- "${name}" >/dev/null 2>&1; then
+  if has_label "${name}"; then
     echo "update: ${name}"
     gh label edit "${name}" --repo "${REPO}" --color "${color}" --description "${description}" >/dev/null
     updated=$((updated + 1))
@@ -39,34 +43,59 @@ ${name}"
   fi
 }
 
-apply_label "type:feature-request" "1f77b4" "New feature proposal"
-apply_label "type:translation" "1f77b4" "Translation improvement"
-apply_label "type:discussion" "1f77b4" "Open discussion or idea"
-apply_label "type:ux-improvement" "1f77b4" "User interface or user experience improvement"
+delete_label() {
+  name="$1"
+
+  if has_label "${name}"; then
+    echo "delete: ${name}"
+    gh label delete "${name}" --repo "${REPO}" --yes >/dev/null
+    existing_labels="$(printf '%s\n' "${existing_labels}" | grep -Fxv -- "${name}" || true)"
+    deleted=$((deleted + 1))
+  fi
+}
+
+# Stable roadmap and feedback metadata. Dates and target windows must not be encoded as labels.
+apply_label "type:roadmap" "0e8a16" "Public roadmap item"
+apply_label "type:feature-request" "1f77b4" "Feature proposal or improvement request"
+apply_label "type:feedback" "0052cc" "Roadmap or product feedback"
+apply_label "type:ui-wording" "5319e7" "UI wording or wording-quality suggestion"
+apply_label "type:translation" "6f42c1" "Translation-related suggestion"
 
 apply_label "product:winsyslog" "6f42c1" "Related to WinSyslog"
 apply_label "product:eventreporter" "6f42c1" "Related to EventReporter"
-apply_label "product:rsyslog-windows-agent" "6f42c1" "Related to rsyslog Windows Agent"
 apply_label "product:monitorware-agent" "6f42c1" "Related to MonitorWare Agent"
-apply_label "product:general" "6f42c1" "General or cross-product topic"
+apply_label "product:rsyslog-windows-agent" "6f42c1" "Related to rsyslog Windows Agent"
+
+apply_label "area:security" "b60205" "Security-related area"
+apply_label "area:ux" "a371f7" "User experience or usability area"
+apply_label "area:performance" "fbca04" "Performance-related area"
+apply_label "area:integration" "0e8a16" "Integration-related area"
+apply_label "area:deployment" "1d76db" "Deployment or setup-related area"
+apply_label "area:docs" "0075ca" "Documentation-related area"
+
+apply_label "partner-input" "d4c5f9" "Input from a partner or reseller context"
+apply_label "customer-requested" "f9d0c4" "Requested by a customer or prospect"
 
 apply_label "status:needs-triage" "fbca04" "Needs maintainer review"
-apply_label "status:under-review" "fbca04" "Currently being reviewed"
-apply_label "status:planned" "0e8a16" "Accepted and planned"
-apply_label "status:accepted" "bfdadc" "Accepted in principle but not yet planned"
-apply_label "status:declined" "d73a4a" "Decision made not to implement"
-apply_label "status:implemented" "0e8a16" "Implemented or shipped"
-
-apply_label "roadmap:short-term" "0e8a16" "Candidate for near-term roadmap"
-apply_label "roadmap:long-term" "5319e7" "Long-term roadmap candidate"
-apply_label "roadmap:investigating" "c2e0c6" "Under investigation for roadmap consideration"
-
-apply_label "community:good-idea" "c5def5" "Valuable idea worth noting"
 
 apply_label "lang:de" "d4d4d4" "German language related"
 apply_label "lang:en" "d4d4d4" "English language related"
 apply_label "lang:fr" "d4d4d4" "French language related"
 apply_label "lang:jp" "d4d4d4" "Japanese language related"
 
-echo "done: created=${created} updated=${updated}"
+# Clean up labels that encode roadmap timing or duplicate the new lighter model.
+delete_label "type:discussion"
+delete_label "type:ux-improvement"
+delete_label "product:general"
+delete_label "status:under-review"
+delete_label "status:planned"
+delete_label "status:accepted"
+delete_label "status:declined"
+delete_label "status:implemented"
+delete_label "roadmap:short-term"
+delete_label "roadmap:long-term"
+delete_label "roadmap:investigating"
+delete_label "community:good-idea"
+delete_label "next major"
 
+echo "done: created=${created} updated=${updated} deleted=${deleted}"

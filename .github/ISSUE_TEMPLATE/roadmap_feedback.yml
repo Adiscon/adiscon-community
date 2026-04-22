@@ -1,0 +1,61 @@
+name: Roadmap feedback
+description: Provide feedback on an existing roadmap direction, roadmap item, or planning priority.
+title: "[Feedback] "
+labels:
+  - type:feedback
+  - status:needs-triage
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product or product area does this feedback relate to?
+      options:
+        - WinSyslog
+        - EventReporter
+        - MonitorWare Agent
+        - rsyslog Windows Agent
+        - Multiple products
+    validations:
+      required: true
+
+  - type: input
+    id: related_item
+    attributes:
+      label: Related roadmap item or issue
+      description: Link the roadmap issue if this feedback is about a specific item.
+      placeholder: https://github.com/Adiscon/adiscon-community/issues/123
+    validations:
+      required: false
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: Feedback type
+      options:
+        - Support / agree
+        - Concern / tradeoff
+        - Missing use case
+        - Priority suggestion
+        - Clarification request
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Explain your feedback as clearly and practically as possible.
+      placeholder: What should maintainers understand or reconsider?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Practical context
+      description: Share deployment context, constraints, or examples that make this feedback more useful.
+      placeholder: Environment size, integrations, partner context, or user expectations
+    validations:
+      required: false

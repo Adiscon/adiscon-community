@@ -1,0 +1,74 @@
+name: Roadmap item / feature request
+description: Suggest a roadmap item or feature improvement for an Adiscon Windows product.
+title: "[Roadmap] "
+labels:
+  - type:feature-request
+  - status:needs-triage
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Select the product this request applies to.
+      options:
+        - WinSyslog
+        - EventReporter
+        - MonitorWare Agent
+        - rsyslog Windows Agent
+        - Multiple products
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user or operator problem this roadmap item should address.
+      placeholder: What is difficult, missing, slow, confusing, or unsupported today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_improvement
+    attributes:
+      label: Proposed improvement
+      description: Describe the improvement you would like to see.
+      placeholder: Focus on the user-visible outcome rather than internal implementation details.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_benefit
+    attributes:
+      label: Expected benefit
+      description: Explain the expected value or impact.
+      placeholder: Why would this matter for users, partners, or operations?
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who needs this
+      description: Who would benefit most from this change?
+      placeholder: Example: operators, partners, enterprise users, smaller deployments, mixed Windows/Linux environments
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround today
+      description: If there is a current workaround, describe it.
+      placeholder: If there is no practical workaround, say so.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add examples, screenshots, deployment context, or links if helpful.
+      placeholder: Any additional context that helps roadmap triage
+    validations:
+      required: false

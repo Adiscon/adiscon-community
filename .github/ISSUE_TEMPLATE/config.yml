@@ -1,2 +1,11 @@
 blank_issues_enabled: false
-
+contact_links:
+  - name: Product support
+    url: https://www.adiscon.com/support/
+    about: Use Adiscon support channels for operational issues, licensing, and official product support.
+  - name: Security issue reporting
+    url: https://github.com/Adiscon/adiscon-community/security/policy
+    about: Please report security issues privately instead of opening a public issue.
+  - name: rsyslog core project
+    url: https://github.com/rsyslog/rsyslog
+    about: Use the rsyslog project channels for rsyslog core topics rather than this Windows-product roadmap repository.

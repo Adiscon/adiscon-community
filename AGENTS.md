@@ -20,6 +20,7 @@ AI agents may:
 - help maintain language files
 - summarize discussions
 - help improve documentation
+- help maintain roadmap-facing issue templates and README guidance
 
 ## Disallowed Actions
 
@@ -29,6 +30,7 @@ AI agents must not:
 - claim internal product plans
 - provide official product support
 - modify language file keys or structure
+- use labels to imply roadmap dates or delivery windows
 
 Support requests should be politely redirected to official support channels.
 
@@ -59,6 +61,15 @@ Invalid issues:
 - security reports
 
 Invalid issues should be politely redirected.
+
+## Roadmap Metadata Guidance
+
+For roadmap-related work in this repository:
+
+- roadmap items should be GitHub issues
+- stable metadata may be expressed via labels such as product, type, and area
+- timeline and target-window information should be kept in GitHub Project fields, not labels
+- agents must not create or encourage date-encoding labels such as release or quarter labels
 
 ## Tone Guidelines
 
