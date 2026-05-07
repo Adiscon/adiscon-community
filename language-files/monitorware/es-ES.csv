@@ -1,0 +1,7 @@
+﻿Unit,Unit Name,ID,English,Sprache,Comment
+MWAgent/frmAbout,About Form,lblClientVersion.Text,1.0.0.0,,
+MWAgent/frmAbout,About Form,lblLink.Text,www.mwagent.com,,
+MWAgent/frmAbout,About Form,lblServiceVersion.Text,1.0.0.0,,
+MWAgent/frmAbout,About Form,lblTitle.Text,About MonitorWare Agent,Acerca de MonitorWare Agent,
+MWAgent/frmMain,Main Form,$this.Text,MonitorWare Agent Configuration Client,,
+MWAgent/frmMain,Main Form,mnuHelpAbout.Text,About MonitorWare Agent,Acerca de MonitorWare Agent,

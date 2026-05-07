@@ -1,0 +1,7 @@
+﻿Unit,Unit Name,ID,English,Sprache,Comment
+RSyslogConfigClient/frmAbout,About Form,lblClientVersion.Text,1.0.0.0,,
+RSyslogConfigClient/frmAbout,About Form,lblLink.Text,www.rsyslog.com,,
+RSyslogConfigClient/frmAbout,About Form,lblServiceVersion.Text,1.0.0.0,,
+RSyslogConfigClient/frmAbout,About Form,lblTitle.Text,About RSyslog Windows Agent,About RSyslog Windows Agent,
+RSyslogConfigClient/frmMain,Main Form,$this.Text,RSyslog Windows Agent Configuration Client,,
+RSyslogConfigClient/frmMain,Main Form,mnuHelpAbout.Text,About RSyslog Windows Agent,About RSyslog Windows Agent,
