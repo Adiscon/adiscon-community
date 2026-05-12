@@ -48,7 +48,7 @@ ClientCore/frmAddRule,Add Rule Form,lblTitle.Text,Adding a new Rule ...,
 ClientCore/frmAddRule,Add Rule Form,rdAddActions.Text,Add the selected Actions to the Rule.,
 ClientCore/frmAddRule,Add Rule Form,rdNoActions.Text,Do not add any Actions yet.,
 ClientCore/frmAddRule,Add Rule Form,szErrorRuleName,Error Rule-Name,
-ClientCore/frmAddRule,Add Rule Form,szErrorRuleNameMsg,"Error, the Rule-Name is to short.",
+ClientCore/frmAddRule,Add Rule Form,szErrorRuleNameMsg,"Error, the Rule-Name is too short.",
 ClientCore/frmAddRuleSet,Add Rule Set Form,$this.Text,Add RuleSet,
 ClientCore/frmAddRuleSet,Add Rule Set Form,cmdCancel.Text,Cancel,
 ClientCore/frmAddRuleSet,Add Rule Set Form,cmdOK.Text,OK,
@@ -62,7 +62,7 @@ ClientCore/frmAddRuleSet,Add Rule Set Form,rdRulePerAction.Text,Add a Rule for e
 ClientCore/frmAddRuleSet,Add Rule Set Form,rdSingleRule.Text,Add a single Rule including these Actions.,
 ClientCore/frmAddRuleSet,Add Rule Set Form,szErrorRuleSetName,Error RuleSet Name,
 ClientCore/frmAddRuleSet,Add Rule Set Form,szErrorRuleSetNameDupl,"Error, a RuleSet with the same Name already exists. Please specify another RuleSet Name. ",
-ClientCore/frmAddRuleSet,Add Rule Set Form,szErrorRuleSetNameMsg,"Error, the RuleSet Name is to short.",
+ClientCore/frmAddRuleSet,Add Rule Set Form,szErrorRuleSetNameMsg,"Error, the RuleSet Name is too short.",
 ClientCore/frmClientConfig,Client Config Form,$this.Text,Options,
 ClientCore/frmClientConfig,Client Config Form,btnValidateUrl.Text,Validate,
 ClientCore/frmClientConfig,Client Config Form,chkAlwaysReloadApplication.Text,Always ask to reload application on language change,
@@ -684,7 +684,7 @@ ClientCore/frmMainTemplate,Main Template Form,disableServiceToolStripMenuItem.Te
 ClientCore/frmMainTemplate,Main Template Form,diskspaceInUseMBToolStripMenuItem.Text,Diskspace in use (MB),
 ClientCore/frmMainTemplate,Main Template Form,enableActionToolStripMenuItem.Text,Enable Action,
 ClientCore/frmMainTemplate,Main Template Form,enableServiceToolStripMenuItem.Text,Enable Service,
-ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,EventReporter Legacy Format,PROTECTED_TERM: preserve product name capitalization
+ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,EventReporter Legacy Format,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
 ClientCore/frmMainTemplate,Main Template Form,exportToolStripMenuItem.Text,Export Configuration,
 ClientCore/frmMainTemplate,Main Template Form,genericFileNameToolStripMenuItem.Text,Generic FileName,
 ClientCore/frmMainTemplate,Main Template Form,importConfigurationToolStripMenuItem.Text,Import Configuration,
@@ -922,7 +922,7 @@ ClientCore/frmMainTemplate,Main Template Form,szVerifyConfigSuccess,Configuratio
 ClientCore/frmMainTemplate,Main Template Form,szVerifyConfigTitle,Verify Configuration,
 ClientCore/frmMainTemplate,Main Template Form,szWarnPermittedSendersNotConfigured,"You have enabled the Permitted Senders List and configured from none to many entries. Your current license allows you to receive from %1 senders but you have configured %2. 
 
-Please review and fix the permitted senders list configuration. Otherwise the service will properly not work as expected.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+Please review and fix the permitted senders list configuration. Otherwise the service may not work as expected.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szWarnRuleSetEmpty,The following RuleSet does not contain any Rules: ,
 ClientCore/frmMainTemplate,Main Template Form,szWarnRuleSetUnused,The following RuleSet is unused: ,
 ClientCore/frmMainTemplate,Main Template Form,szWarnTrialExpired,"Your trial version is expired!

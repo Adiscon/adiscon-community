@@ -680,7 +680,7 @@ ClientCore/frmMainTemplate,Main Template Form,disableServiceToolStripMenuItem.Te
 ClientCore/frmMainTemplate,Main Template Form,diskspaceInUseMBToolStripMenuItem.Text,Festplattenspeicher in Benutzung (MB),
 ClientCore/frmMainTemplate,Main Template Form,enableActionToolStripMenuItem.Text,Aktiviere Action,
 ClientCore/frmMainTemplate,Main Template Form,enableServiceToolStripMenuItem.Text,Aktiviere Service,
-ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,EventReporter Legacy Format,PROTECTED_TERM: preserve product name capitalization
+ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,EventReporter Legacy Format,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
 ClientCore/frmMainTemplate,Main Template Form,exportToolStripMenuItem.Text,Konfiguration exportieren,
 ClientCore/frmMainTemplate,Main Template Form,genericFileNameToolStripMenuItem.Text,Generischer Dateiname,
 ClientCore/frmMainTemplate,Main Template Form,importConfigurationToolStripMenuItem.Text,Konfiguration Importieren,

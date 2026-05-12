@@ -684,7 +684,7 @@ ClientCore/frmMainTemplate,Main Template Form,disableServiceToolStripMenuItem.Te
 ClientCore/frmMainTemplate,Main Template Form,diskspaceInUseMBToolStripMenuItem.Text,Kasutusel kettaruum (MB),
 ClientCore/frmMainTemplate,Main Template Form,enableActionToolStripMenuItem.Text,Luba toiming,
 ClientCore/frmMainTemplate,Main Template Form,enableServiceToolStripMenuItem.Text,Luba teenus,
-ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,EventReporter Pärandvorming,PROTECTED_TERM: preserve product name capitalization
+ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,EventReporter Pärandvorming,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
 ClientCore/frmMainTemplate,Main Template Form,exportToolStripMenuItem.Text,Ekspordi konfiguratsioon,
 ClientCore/frmMainTemplate,Main Template Form,genericFileNameToolStripMenuItem.Text,Üldine failinimi,
 ClientCore/frmMainTemplate,Main Template Form,importConfigurationToolStripMenuItem.Text,Konfiguratsiooni importimine,

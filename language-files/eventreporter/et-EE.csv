@@ -2,6 +2,6 @@
 CFGEvntSLog/frmAbout,About Form,lblClientVersion.Text,1.0.0.0,
 CFGEvntSLog/frmAbout,About Form,lblLink.Text,www.eventreporter.com,
 CFGEvntSLog/frmAbout,About Form,lblServiceVersion.Text,1.0.0.0,
-CFGEvntSLog/frmAbout,About Form,lblTitle.Text,Umbes EventReporter,PROTECTED_TERM: preserve product name capitalization
-CFGEvntSLog/frmMain,Main Form,$this.Text,EventReporter Configuration Client,PROTECTED_TERM: preserve product name capitalization
-CFGEvntSLog/frmMain,Main Form,mnuHelpAbout.Text,Umbes EventReporter,PROTECTED_TERM: preserve product name capitalization
+CFGEvntSLog/frmAbout,About Form,lblTitle.Text,Umbes EventReporter,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
+CFGEvntSLog/frmMain,Main Form,$this.Text,EventReporter Configuration Client,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
+CFGEvntSLog/frmMain,Main Form,mnuHelpAbout.Text,Umbes EventReporter,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate

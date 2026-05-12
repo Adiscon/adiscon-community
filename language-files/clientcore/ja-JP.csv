@@ -680,7 +680,7 @@ ClientCore/frmMainTemplate,Main Template Form,disableServiceToolStripMenuItem.Te
 ClientCore/frmMainTemplate,Main Template Form,diskspaceInUseMBToolStripMenuItem.Text,空き容量 (MB),
 ClientCore/frmMainTemplate,Main Template Form,enableActionToolStripMenuItem.Text,アクションを有効に,
 ClientCore/frmMainTemplate,Main Template Form,enableServiceToolStripMenuItem.Text,サービスを有効に,
-ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,EventReporter レガシーフォーマット,PROTECTED_TERM: preserve product name capitalization
+ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,EventReporter レガシーフォーマット,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
 ClientCore/frmMainTemplate,Main Template Form,exportToolStripMenuItem.Text,設定をエクスポート,
 ClientCore/frmMainTemplate,Main Template Form,genericFileNameToolStripMenuItem.Text,Generic ファイル名,
 ClientCore/frmMainTemplate,Main Template Form,importConfigurationToolStripMenuItem.Text,設定をインポート,
@@ -1694,7 +1694,7 @@ ClientCore/xml.languagefiles/General.QueueManager,Queue Manager General,nSavingL
 ClientCore/xml.languagefiles/General.QueueManager,Queue Manager General,nWorkerThreads,ワーカースレッドの数,
 ClientCore/xml.languagefiles/General.QueueManager,Queue Manager General,szRingBufferFile,ファイルパス,
 ClientCore/xml.languagefiles/General.QueueManager,Queue Manager General,szRingBufferWarning,"警告！ディスクキャッシュ機能を有効にすると、ご使用のハードディスクの速度によっては、アクションの処理が遅くなります。 
-この機能は、必要な場合のみご利用ください。この処理に失敗すると、WinSyslog(EventReporter)サービスは起動時のキューを読み込み、前のキューから処理を行うようになります。",PROTECTED_TERM: preserve product name capitalization
+この機能は、必要な場合のみご利用ください。この処理に失敗すると、WinSyslog(EventReporter)サービスは起動時のキューを読み込み、前のキューから処理を行うようになります。",PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
 ClientCore/xml.languagefiles/Service.CPUMonitor,CPU Monitor Service,nCPUEnable,CPUのチェックを有効にする,
 ClientCore/xml.languagefiles/Service.CPUMonitor,CPU Monitor Service,nCPUOccurences,アラームが出るまで発生,
 ClientCore/xml.languagefiles/Service.CPUMonitor,CPU Monitor Service,nCPUReportIfBelowAlarm,CPUレベルがアラームレベルを下回った場合にもレポートする,

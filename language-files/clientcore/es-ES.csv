@@ -27,7 +27,7 @@ ClientCore/CTimeHelper,C Time Helper,szTimeTwoHours,2 horas,
 ClientCore/CTimeHelper,C Time Helper,szUnitHour,horas,
 ClientCore/CTimeHelper,C Time Helper,szUnitMilliSecond,milisegundos,
 ClientCore/CTimeHelper,C Time Helper,szUnitMinute,minutos,
-ClientCore/CTimeHelper,C Time Helper,szUnitSecond,artículos de segunda clase,
+ClientCore/CTimeHelper,C Time Helper,szUnitSecond,segundos,
 ClientCore/extIPAddressTextBox,ext IP Address Text Box,$this.Name,IPAddressTextBox,
 ClientCore/frmAboutTemplate,About Template Form,$this.Text,frmAbout,
 ClientCore/frmAboutTemplate,About Template Form,lblClient.Text,Versión del cliente:,
@@ -684,7 +684,7 @@ ClientCore/frmMainTemplate,Main Template Form,disableServiceToolStripMenuItem.Te
 ClientCore/frmMainTemplate,Main Template Form,diskspaceInUseMBToolStripMenuItem.Text,Espacio en disco en uso (MB),
 ClientCore/frmMainTemplate,Main Template Form,enableActionToolStripMenuItem.Text,Habilitar acción,
 ClientCore/frmMainTemplate,Main Template Form,enableServiceToolStripMenuItem.Text,Habilitar servicio,
-ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,Formato heredado EventReporter,PROTECTED_TERM: preserve product name capitalization
+ClientCore/frmMainTemplate,Main Template Form,eventReporterLegacyFormatToolStripMenuItem.Text,Formato heredado EventReporter,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
 ClientCore/frmMainTemplate,Main Template Form,exportToolStripMenuItem.Text,Exportar configuración,
 ClientCore/frmMainTemplate,Main Template Form,genericFileNameToolStripMenuItem.Text,Nombre de archivo genérico,
 ClientCore/frmMainTemplate,Main Template Form,importConfigurationToolStripMenuItem.Text,Importar configuración,
