@@ -1,0 +1,7 @@
+﻿Unit,Unit Name,ID,Text,Comment
+CFGEvntSLog/frmAbout,About Form,lblClientVersion.Text,1.0.0.0,
+CFGEvntSLog/frmAbout,About Form,lblLink.Text,www.eventreporter.com,
+CFGEvntSLog/frmAbout,About Form,lblServiceVersion.Text,1.0.0.0,
+CFGEvntSLog/frmAbout,About Form,lblTitle.Text,Acerca de EventReporter,PROTECTED_TERM: preserve product name capitalization
+CFGEvntSLog/frmMain,Main Form,$this.Text,EventReporter Cliente de configuración,PROTECTED_TERM: preserve product name capitalization
+CFGEvntSLog/frmMain,Main Form,mnuHelpAbout.Text,Acerca de EventReporter,PROTECTED_TERM: preserve product name capitalization

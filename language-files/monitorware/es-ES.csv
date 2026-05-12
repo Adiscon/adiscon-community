@@ -1,0 +1,7 @@
+﻿Unit,Unit Name,ID,Text,Comment
+MWAgent/frmAbout,About Form,lblClientVersion.Text,1.0.0.0,
+MWAgent/frmAbout,About Form,lblLink.Text,www.mwagent.com,
+MWAgent/frmAbout,About Form,lblServiceVersion.Text,1.0.0.0,
+MWAgent/frmAbout,About Form,lblTitle.Text,Acerca de MonitorWare Agent,PROTECTED_TERM: preserve product name capitalization
+MWAgent/frmMain,Main Form,$this.Text,MonitorWare Agent Configuration Client,PROTECTED_TERM: preserve product name capitalization
+MWAgent/frmMain,Main Form,mnuHelpAbout.Text,Acerca de MonitorWare Agent,PROTECTED_TERM: preserve product name capitalization
