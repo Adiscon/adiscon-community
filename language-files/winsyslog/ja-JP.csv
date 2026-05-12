@@ -1,0 +1,7 @@
+﻿Unit,Unit Name,ID,Text,Comment
+WINSyslogClient/frmAbout,About Form,lblClientVersion.Text,1.0.0.0,
+WINSyslogClient/frmAbout,About Form,lblLink.Text,www.winsyslog.com,
+WINSyslogClient/frmAbout,About Form,lblServiceVersion.Text,1.0.0.0,
+WINSyslogClient/frmAbout,About Form,lblTitle.Text,About WinSyslog,
+WINSyslogClient/frmMain,Main Form,$this.Text,WinSyslog設定クライアント,
+WINSyslogClient/frmMain,Main Form,mnuHelpAbout.Text,About WinSyslog,
