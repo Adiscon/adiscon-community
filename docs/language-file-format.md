@@ -10,6 +10,30 @@ The exact structure of a language file may differ by product and version. In gen
 
 Because formats may evolve over time, contributions should remain generic unless a specific product and version is clearly identified.
 
+Current exported CSV files use this structure:
+
+```text
+Unit,Unit Name,ID,Text,Comment
+```
+
+`Unit`, `Unit Name`, and `ID` identify the source UI element and must not be changed during translation review. `Text` is the user-visible value. `Comment` may contain policy hints for reviewers and translation tools.
+
+## Review policy hints
+
+The `Comment` column can contain these machine-readable hints:
+
+- `PROTECTED_TERM`: preserve the product name spelling and capitalization.
+- `PLACEHOLDER_REQUIRED`: preserve placeholders such as `%1`, `%2`, and `%msg%` exactly.
+
+Protected product names must remain in English in every language:
+
+- EventReporter
+- MonitorWare Agent
+- RSyslog Windows Agent
+- WinSyslog
+
+For titles and labels such as "EventReporter Configuration Client" or "About EventReporter", translators may localize "Configuration Client", "About", or the surrounding grammar, but the product name must stay unchanged.
+
 ## Customization use cases
 
 Typical use cases may include:
