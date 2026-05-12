@@ -1,0 +1,7 @@
+﻿Unit,Unit Name,ID,Text,Comment
+WINSyslogClient/frmAbout,About Form,lblClientVersion.Text,1.0.0.0,
+WINSyslogClient/frmAbout,About Form,lblLink.Text,www.winsyslog.com,
+WINSyslogClient/frmAbout,About Form,lblServiceVersion.Text,1.0.0.0,
+WINSyslogClient/frmAbout,About Form,lblTitle.Text,Über WinSyslog,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
+WINSyslogClient/frmMain,Main Form,$this.Text,WinSyslog Konfigurationsclient,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
+WINSyslogClient/frmMain,Main Form,mnuHelpAbout.Text,Über WinSyslog,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate

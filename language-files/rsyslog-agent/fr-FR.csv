@@ -1,0 +1,7 @@
+﻿Unit,Unit Name,ID,Text,Comment
+RSyslogConfigClient/frmAbout,About Form,lblClientVersion.Text,1.0.0.0,
+RSyslogConfigClient/frmAbout,About Form,lblLink.Text,www.rsyslog.com,
+RSyslogConfigClient/frmAbout,About Form,lblServiceVersion.Text,1.0.0.0,
+RSyslogConfigClient/frmAbout,About Form,lblTitle.Text,À propos de RSyslog Windows Agent,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
+RSyslogConfigClient/frmMain,Main Form,$this.Text,RSyslog Windows Agent Configuration Client,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
+RSyslogConfigClient/frmMain,Main Form,mnuHelpAbout.Text,À propos de RSyslog Windows Agent,PROTECTED_TERM: preserve product name exactly; translate surrounding UI words when appropriate
