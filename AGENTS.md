@@ -44,6 +44,25 @@ Agents must follow these rules:
 - never change file structure
 - only update translated text values
 - preserve formatting
+- use the `Comment` column as review policy when CSV files include it
+- do not request translation of protected product names
+- preserve placeholders exactly, including `%1`, `%2`, and `%msg%`
+
+Protected Adiscon product names remain in English in every language:
+
+- EventReporter
+- MonitorWare Agent
+- RSyslog Windows Agent
+- WinSyslog
+
+For titles and labels such as "EventReporter Configuration Client" or "About
+EventReporter", translate only the surrounding UI wording if appropriate for the
+target language. The product name itself must remain unchanged.
+
+CSV review hints:
+
+- `PROTECTED_TERM`: preserve the product name spelling and capitalization.
+- `PLACEHOLDER_REQUIRED`: preserve placeholders exactly.
 
 ## Issue Handling Guidance
 
