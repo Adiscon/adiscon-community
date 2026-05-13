@@ -1191,7 +1191,7 @@ ClientCore/frmToolsSendSyslog,Tools Send Syslog Form,szSendSuccess, Syslog Messa
 ClientCore/frmToolsSendSyslog,Tools Send Syslog Form,szThisIsaTest,This is a SyslogTest,
 ClientCore/frmToolsSendSyslog,Tools Send Syslog Form,tpConnection.Text,Connection properties,
 ClientCore/frmToolsSendSyslog,Tools Send Syslog Form,tpMessage.Text,Message properties,
-ClientCore/frmWaiting,Waiting Form,$this.Text,Configuration Client is working ...,
+ClientCore/frmWaiting,Waiting Form,$this.Text,O cliente de configuração está funcionando...,
 ClientCore/frmWaiting,Waiting Form,frmWaiting.Text,O cliente de configuração está funcionando...,
 ClientCore/frmWaiting,Waiting Form,lblTitle.Text,O cliente de configuração está funcionando... aguarde,
 ClientCore/frmWaiting,Waiting Form,szConfigClientWorking,O cliente de configuração está funcionando,
