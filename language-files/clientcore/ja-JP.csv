@@ -882,6 +882,9 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,リロー�
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,ライセンスキーはこの製品では無効です。誤入力、ライセンス名との不一致、またはデータ破損の可能性があります。一般設定を確認してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,このライセンスキーはこの製品バージョンでは無効です（リリース／メジャーバージョンが一致しません）。このビルドに対応したキーが必要です。一般設定でライセンスを更新してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,ライセンスキーが設定されていません（ライセンス名または主キーがありません）。一般設定でライセンスを入力または更新してください。,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,有効なライセンスファイルが設定されていません,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,ライセンスファイルは有効,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,フリーエディション (最大送信デバイス数：%1),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,試用期間は終了しました！,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,試用期間中/残り日数：,
@@ -1667,7 +1670,30 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Key3,
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Key4,
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,ライセンスを確認,
+ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,ライセンス,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,従来のライセンスキー,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,メジャーバージョン 2026 より前のインストール済みサービスでは、下の登録名とライセンスキーを使用してください。2026 以降のバージョンでは「ライセンスファイル」タブを使用してください。,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,従来のライセンス,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,ライセンス情報,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,メジャーバージョン 2026 以降のインストール済みサービスでは、ライセンスファイル (.alic) を使用します。既定の場所は %DEFAULTLICENSEV2PATH% です。それより古いサービスバージョンでは「従来のライセンス」タブを使用してください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,ライセンスファイル,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,既定のランタイムパス: %DEFAULTLICENSEV2PATH%。このフィールドを空にするとその場所を使用します。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,ライセンスファイル,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,.alic ファイルをここにドロップするか、エクスプローラーで「パスのコピー」の後に右クリックして「パスを貼り付け」を選択してください（ドラッグアンドドロップがブロックされている場合）。,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,ここにドロップできるのは .alic ライセンスファイルのみです。,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,ライセンスファイル,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,既定の場所にある既存の license.alic を上書きしますか？,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,貼り付けたライセンスファイルのパスが存在しません。,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,クリップボードに有効なライセンスファイルのパスが含まれていません。,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PastePath,パスを貼り付け,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Path,ライセンスファイルのパス,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInvalidConfirm,"ライセンスファイルのパスを確認できませんでした:
+
+%1
+
+このパスを保存しますか?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,ライセンスファイル,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,ライセンス検証,
 ClientCore/xml.languagefiles/General.License,License General,szLicensee,ユーザー登録名,
 ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,詳細情報は以下...,
 ClientCore/xml.languagefiles/General.License,License General,szRegNumber,ユーザー登録番号,

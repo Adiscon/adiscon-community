@@ -886,6 +886,9 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Do you want
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"The license key is not valid for this product. It may be mistyped, not match the license name, or be corrupted. Check General settings.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,This license key is not valid for this version of the product (wrong release / major version). You need a key that matches this build. Update your license in General settings.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,No license key is configured (license name or primary key is missing). Enter or update your license in General settings.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,No valid license file configured,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,License file valid,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,Free Edition (Max %1 senders),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,Trial period expired or invalid license(wrong version?)!,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,"Trial period, days left ",
@@ -1662,7 +1665,30 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Key3,
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Key4,
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Verify License,
+ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,License,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Legacy license keys,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"For installed services with major version before 2026, use the registration name and license keys below. For version 2026 and later, use the License File tab.",
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Legacy License,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,License Information,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"For installed services with major version 2026 and later, use a license file (.alic). The default location is %DEFAULTLICENSEV2PATH%. For older service versions, use the Legacy License tab.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,License File,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,Default runtime path: %DEFAULTLICENSEV2PATH%. Leave this field empty to use that location.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,License File,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,"Drop a .alic file here, or right-click and choose Paste path after using Explorer Copy as path (useful when drag-and-drop is blocked).",
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Only .alic license files can be dropped here.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,License File,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Overwrite the existing license.alic at the default location?,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,The pasted license file path does not exist.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,The clipboard does not contain a valid license file path.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PastePath,Paste path,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Path,License file path,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInvalidConfirm,"The license file path could not be verified:
+
+%1
+
+Save this path anyway?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,License File,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,License verification,
 ClientCore/xml.languagefiles/General.License,License General,szLicensee,Registration Name,
 ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,More information can be found at our Homepage,
 ClientCore/xml.languagefiles/General.License,License General,szRegNumber,Registration Number,

@@ -886,6 +886,9 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Kas soovite
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"Litsentsivõti ei kehti selle toote jaoks. See võib olla vale, mitte sobida litsentsi nimega või olla vigane. Kontrollige üldseadeid.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,See litsentsivõti ei kehti selle tooteversiooni jaoks (vale väljalaskenumber / peaversioon). Vajate sellele kompileeringule vastavat võtit. Uuendage litsents üldseadetes.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Litsentsivõtit pole seadistatud (puudub litsentsi nimi või põhivõti). Sisestage või uuendage litsents üldseadetes.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Väljaanne (Versioon ,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Kehtivat litsentsifaili pole seadistatud,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Litsentsifail kehtib,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,Tasuta väljaanne (maksimaalselt %1 saatjat),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,Prooviperiood on aegunud või kehtetu litsents (vale versioon?)!,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,"Prooviperiood, päevad jäänud",
@@ -1662,7 +1665,30 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Võti 
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Võti 4,
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Võti 5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Kinnitage litsents,
+ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Litsents,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Pärandlitsentsi võtmed,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Installitud teenuste puhul, mille peamine versioon on enne 2026, kasutage allpool registreerimisnime ja litsentsivõtmeid. Versiooni 2026 ja uuemate puhul kasutage vahekaarti Litsentsifail.",
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Pärandlitsents,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Litsentsi teave,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Installitud teenuste puhul, mille peamine versioon on 2026 või uuem, kasutage litsentsifaili (.alic). Vaikimisi asukoht on %DEFAULTLICENSEV2PATH%. Vanemate teenuseversioonide puhul kasutage vahekaarti Pärandlitsents.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Litsentsifail,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,"Vaikimisi käivitusteekond: %DEFAULTLICENSEV2PATH%. Jätke väli tühjaks, et kasutada seda asukohta.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Litsentsifail,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,Lohistage .alic fail siia või tehke paremklõps ja valige Kleebi tee pärast Exploreris Kopeeri tee (kui lohistamine on blokeeritud).,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Siia saab lohistada ainult .alic litsentsifaile.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Litsentsifail,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Kas kirjutada vaikimisi asukohas olemasolev license.alic üle?,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,Kleebitud litsentsifaili teed ei eksisteeri.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,Lõikelaual pole kehtivat litsentsifaili teed.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PastePath,Kleebi tee,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Path,Litsentsifaili tee,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInvalidConfirm,"Litsentsifaili teed ei saanud kontrollida:
+
+%1
+
+Kas salvestada see tee ikkagi?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,Litsentsifail,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,Litsentsi kontroll,
 ClientCore/xml.languagefiles/General.License,License General,szLicensee,Registreerimisnimi,
 ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,Lisateavet leiate meie kodulehelt,
 ClientCore/xml.languagefiles/General.License,License General,szRegNumber,Registreerimisnumber,

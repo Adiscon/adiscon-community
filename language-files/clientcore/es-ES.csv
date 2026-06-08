@@ -886,6 +886,9 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,¿Desea rei
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"La clave de licencia no es válida para este producto. Puede estar mal escrita, no coincidir con el nombre de licencia o estar corrupta. Revise la configuración general.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,Esta clave de licencia no es válida para esta versión del producto (versión o release incorrecta). Necesita una clave que corresponda a esta compilación. Actualice la licencia en la configuración general.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,No hay clave de licencia configurada (falta el nombre de licencia o la clave principal). Introduzca o actualice su licencia en la configuración general.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,No hay un archivo de licencia válido configurado,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Archivo de licencia válido,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,Edición gratuita (máx. %1 remitentes),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,¡Período de prueba expirado o licencia no válida (¿versión incorrecta?)!,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,"Período de prueba, días restantes ",
@@ -1656,7 +1659,30 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Clave3
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Clave4,
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Clave5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Verificar licencia,
+ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Licencia,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Claves de licencia heredadas,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Para servicios instalados con versión principal anterior a 2026, use el nombre de registro y las claves de licencia siguientes. Para la versión 2026 y posteriores, use la pestaña Archivo de licencia.",
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Licencia heredada,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Información de licencia,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Para servicios instalados con versión principal 2026 o posterior, use un archivo de licencia (.alic). La ubicación predeterminada es %DEFAULTLICENSEV2PATH%. Para versiones de servicio anteriores, use la pestaña Licencia heredada.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Archivo de licencia,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,Ruta predeterminada en tiempo de ejecución: %DEFAULTLICENSEV2PATH%. Deje este campo vacío para usar esa ubicación.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Archivo de licencia,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,Suelte un archivo .alic aquí o haga clic derecho y elija Pegar ruta tras Copiar como ruta en el Explorador (si el arrastrar y soltar está bloqueado).,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Solo se pueden soltar aquí archivos de licencia .alic.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Archivo de licencia,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,¿Sobrescribir el license.alic existente en la ubicación predeterminada?,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,La ruta de archivo de licencia pegada no existe.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,El portapapeles no contiene una ruta de archivo de licencia válida.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PastePath,Pegar ruta,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Path,Ruta del archivo de licencia,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInvalidConfirm,"No se pudo verificar la ruta del archivo de licencia:
+
+%1
+
+¿Guardar esta ruta de todos modos?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,Archivo de licencia,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,Verificación de licencia,
 ClientCore/xml.languagefiles/General.License,License General,szLicensee,Nombre de registro,
 ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,Puede encontrar más información en nuestra página de inicio,
 ClientCore/xml.languagefiles/General.License,License General,szRegNumber,Número de registro,

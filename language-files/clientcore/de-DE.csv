@@ -882,6 +882,9 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Wollen Sie 
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"Der Lizenzschlüssel ist für dieses Produkt ungültig. Er kann falsch eingegeben sein, nicht zum Lizenznamen passen oder beschädigt sein. Prüfen Sie die Einstellungen unter Allgemein.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,"Dieser Lizenzschlüssel ist für diese Produktversion ungültig (falsche Release- bzw. Hauptversion). Sie benötigen einen Schlüssel, der zu diesem Build passt. Aktualisieren Sie die Lizenz unter Allgemein.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Es ist kein Lizenzschlüssel hinterlegt (Lizenzname oder Hauptschlüssel fehlt). Geben Sie Ihre Lizenz unter Allgemein ein oder aktualisieren Sie sie.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Keine gültige Lizenzdatei konfiguriert,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Lizenzdatei gültig,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,Kostenlose Version (Maximal %1 Sender),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,"Testphase ist abgelaufen, oder falsche Lizens!",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,"Testphase, Tage übrig ",
@@ -1657,7 +1660,30 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Key3,
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Key4,
 ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Lizenz verifizieren,
+ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Lizenz,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Legacy-Lizenzschlüssel,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,Für installierte Dienste mit Hauptversion vor 2026 verwenden Sie unten den Registrierungsnamen und die Lizenzschlüssel. Für Version 2026 und höher verwenden Sie die Registerkarte Lizenzdatei.,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Legacy-Lizenz,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Lizenz Informationen,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,Für installierte Dienste mit Hauptversion 2026 und höher verwenden Sie eine Lizenzdatei (.alic). Der Standardspeicherort ist %DEFAULTLICENSEV2PATH%. Für ältere Dienstversionen verwenden Sie die Registerkarte Legacy-Lizenz.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Lizenzdatei,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,"Standardpfad zur Laufzeit: %DEFAULTLICENSEV2PATH%. Feld leer lassen, um diesen Speicherort zu verwenden.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Lizenzdatei,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,.alic-Datei hier ablegen oder per Rechtsklick »Pfad einfügen« nach Explorer »Als Pfad kopieren« (wenn Drag-and-Drop blockiert ist).,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Nur .alic-Lizenzdateien können hier abgelegt werden.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Lizenzdatei,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Vorhandene license.alic am Standardspeicherort überschreiben?,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,Der eingefügte Pfad zur Lizenzdatei existiert nicht.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,Die Zwischenablage enthält keinen gültigen Pfad zur Lizenzdatei.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PastePath,Pfad einfügen,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Path,Pfad zur Lizenzdatei,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInvalidConfirm,"Der Lizenzdateipfad konnte nicht überprüft werden:
+
+%1
+
+Diesen Pfad trotzdem speichern?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,Lizenzdatei,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,Lizenzprüfung,
 ClientCore/xml.languagefiles/General.License,License General,szLicensee,Registrierungs-Name,
 ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,Mehr Informationen unter auf unserer Homepage:,
 ClientCore/xml.languagefiles/General.License,License General,szRegNumber,Lizenzschlüssel,
