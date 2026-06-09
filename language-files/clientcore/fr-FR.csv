@@ -861,10 +861,16 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Échec de l'enre
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Échec de l'enregistrement des variables de données pour le répertoire suivant :,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,Le service suivant n'a aucun RuleSet attribué :,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,Le service suivant ne fonctionnera pas avec votre licence actuelle :,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Erreur de démarrage du service,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,Le service n'a pas pu être démarré en 20 secondes.,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Erreur lors de l'arrêt du service,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,Le Service n'a pas pu être arrêté en 20 secondes.,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Le démarrage du service prend plus de temps que prévu,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"Le Configuration Client a cessé d'attendre après 30 secondes. Le service en arrière-plan peut encore être en cours de démarrage.
+
+Veuillez vérifier l'état actuel dans la console des services Windows (services.msc).",
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,L'arrêt du service prend plus de temps que prévu,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,"Le Configuration Client a cessé d'attendre après 30 secondes. Le service en arrière-plan peut encore être en cours d'arrêt.
+
+Veuillez vérifier l'état actuel dans la console des services Windows (services.msc). Si l'état est « Arrêt en cours », attendez qu'il passe à « Arrêté ».
+
+Si le service reste longtemps à l'état « Arrêt en cours » alors que le système est inactif, consultez la documentation de votre produit sous Général > Protéger le service contre l'arrêt et contactez le support.",
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigFailed,Échec de l'exportation de la configuration dans un fichier,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigSuccess,Configuration exportée avec succès dans un fichier,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigTitle,Exportation de configurations,
@@ -910,8 +916,13 @@ ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Redéma
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Démarre le service en arrière-plan,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Arrête le service en arrière-plan,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Gestion des services,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Service : En pause (Rechargement),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Service : Mise en pause,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Service : Reprise en cours,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Service : En cours d'exécution,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Service : Démarrage en cours,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Service : Arrêté,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Service : Arrêt en cours,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Service : Inconnu,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Services,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,Services %1 importés à partir du fichier de configuration '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly

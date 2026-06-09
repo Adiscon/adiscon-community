@@ -861,10 +861,16 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Error al guardar
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Error al guardar las variables de datos para el siguiente directorio: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,El siguiente servicio no tiene ningún conjunto de reglas asignado: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,El siguiente servicio no funcionará con su licencia actual: ,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Error al iniciar el servicio,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,El servicio no pudo iniciarse en 20 segundos.,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Error al detener el servicio,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,El servicio no pudo detenerse en 20 segundos.,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,El inicio del servicio está tardando más de lo esperado,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"El Configuration Client dejó de esperar tras 30 segundos. El servicio en segundo plano puede seguir iniciándose.
+
+Compruebe el estado actual en la consola de servicios de Windows (services.msc).",
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,La detención del servicio está tardando más de lo esperado,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,"El Configuration Client dejó de esperar tras 30 segundos. El servicio en segundo plano puede seguir deteniéndose.
+
+Compruebe el estado actual en la consola de servicios de Windows (services.msc). Si el estado es «Deteniendo», espere hasta que pase a «Detenido».
+
+Si el servicio permanece en «Deteniendo» mucho tiempo con el sistema inactivo, revise en la documentación de su producto General > Proteger servicio contra cierre y contacte con el soporte.",
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigFailed,Error al exportar la configuración al archivo ,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigSuccess,Configuración exportada correctamente al archivo ,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigTitle,Exportar configuración,
@@ -910,8 +916,13 @@ ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Reinici
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Inicia el servicio en segundo plano,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Detiene el servicio en segundo plano,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Administración de servicios,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Servicio: En pausa (Recargando),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Servicio: Pausando,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Servicio: Reanudando,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Servicio: En ejecución,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Servicio: Iniciando,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Servicio: Detenido,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Servicio: Deteniendo,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Servicio: Desconocido,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Servicios,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,Se importó %1 Services del archivo de configuración '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
