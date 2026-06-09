@@ -857,10 +857,16 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,データ変数�
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,以下のディレクトリでデータ変数の保存に失敗しました: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,以下のサービスはルールセットが設定されていません: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,このサービスはお持ちのライセンスでは使用できません:,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,サービスの開始エラー,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,20秒以内にサービスを開始できませんでした,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,サービスの停止エラー,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,20秒以内にサービスを停止できませんでした,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,サービスの開始に予想より時間がかかっています,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"30秒経過後、Configuration Clientは待機を終了しました。バックグラウンド サービスはまだ開始中の可能性があります。
+
+Windows のサービス コンソール (services.msc) で現在の状態を確認してください。",
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,サービスの停止に予想より時間がかかっています,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,"30秒経過後、Configuration Clientは待機を終了しました。バックグラウンド サービスはまだシャットダウン中の可能性があります。
+
+Windows のサービス コンソール (services.msc) で現在の状態を確認してください。状態が「停止中」の場合は、「停止」になるまでお待ちください。
+
+システムがアイドル状態なのにサービスが長時間「停止中」のままの場合は、製品ドキュメントの全般 > シャットダウン時にサービスを保護する を確認し、サポートにお問い合わせください。",
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigFailed,ファイルへの設定のエクスポートに失敗しました,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigSuccess,ファイルへの設定のエクスポートに成功しました,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigTitle,設定のエクスポート,
@@ -906,8 +912,13 @@ ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,バッ�
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,バックグラウンド サービスを開始します,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,バックグラウンド サービスを停止します,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,サービス管理,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,サービス: 一時停止 (再読み込み中),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,サービス: 一時停止中,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,サービス: 再開中,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,サービス: 実行中,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,サービス: 開始中,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,サービス: 停止,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,サービス: 停止中,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,サービス: 不明,
 ClientCore/frmMainTemplate,Main Template Form,szServices,サービス,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,サービス %1 を設定ファイル '%2' からインポートしました,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly

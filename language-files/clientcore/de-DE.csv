@@ -857,10 +857,16 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Fehler beim spei
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Datenvariablen konnten nicht in folgendes Verzeichnis gespeichert werden: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,The following Service has no RuleSet assigned: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,Der folgende Dienste wird mit ihrer aktuellen Lizenz nicht funktionieren: ,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Fehler beim Service Start,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,Der Service konnte nach 20 Sek. nicht gestartet werden.,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Fehler beim Service Stop,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,Der Service konnte nach 20 Sek. nicht gestoppt werden.,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Service-Start dauert länger als erwartet,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"Der Configuration Client hat nach 30 Sekunden aufgehört zu warten. Der Hintergrunddienst wird möglicherweise noch gestartet.
+
+Bitte prüfen Sie die Windows-Diensteverwaltung (services.msc) auf den aktuellen Status.",
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Service-Stopp dauert länger als erwartet,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,"Der Configuration Client hat nach 30 Sekunden aufgehört zu warten. Der Hintergrunddienst wird möglicherweise noch heruntergefahren.
+
+Bitte prüfen Sie die Windows-Diensteverwaltung (services.msc) auf den aktuellen Status. Wenn der Status „Wird beendet“ lautet, warten Sie, bis er „Beendet“ ist.
+
+Bleibt der Dienst im Status „Wird beendet“ lange im Leerlauf, prüfen Sie in Ihrer Produktdokumentation Allgemein > Service gegen Herunterfahren sichern und wenden Sie sich an den Support.",
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigFailed,Export der Konfiguration in Datei fehlgeschlagen ,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigSuccess,Export der Konfiguration in Datei erfolgreich ,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigTitle,Konfiguration Export,
@@ -906,8 +912,13 @@ ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Startet
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Startet den Hintergrunddienst,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Stoppt den Hintergrunddienst,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Serviceverwaltung,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Dienst: Angehalten (Neuladen),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Dienst: Wird angehalten,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Dienst: Wird fortgesetzt,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Dienst: Läuft,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Dienst: Wird gestartet,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Dienst: Gestoppt,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Dienst: Wird beendet,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Dienst: Unbekannt,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Dienste,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,Es wurden %1 Dienste aus der Konfigurationsdatei '%2' importiert.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly

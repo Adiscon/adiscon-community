@@ -861,10 +861,16 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Andmemuutujate s
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Andmemuutujate salvestamine ebaõnnestus järgmises kataloogis:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,Järgmisele teenusele ei ole reeglistikku määratud:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,Järgmine teenus ei tööta teie praeguse litsentsiga:,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Viga teenuse käivitamisel,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,Teenust ei õnnestunud 20 sekundi jooksul käivitada.,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Viga teenuse peatamisel,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,Teenust ei õnnestunud 20 sekundi jooksul peatada.,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Teenuse käivitamine võtab oodatust kauem aega,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"Configuration Client lõpetas ootamise 30 sekundi järel. Taustateenus võib endiselt käivituda.
+
+Kontrollige praegust olekut Windowsi teenuste konsoolis (services.msc).",
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Teenuse peatamine võtab oodatust kauem aega,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,"Configuration Client lõpetas ootamise 30 sekundi järel. Taustateenus võib endiselt sulguda.
+
+Kontrollige praegust olekut Windowsi teenuste konsoolis (services.msc). Kui olek on „Peatamine“, oodake, kuni see muutub „Peatatud“.
+
+Kui teenus jääb pikaks ajaks olekusse „Peatamine“ süsteemi jõudeolekus, vaadake toote dokumentatsioonist Üldine > Kaitse teenust väljalülitamise eest ja võtke ühendust toega.",
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigFailed,Konfiguratsiooni faili eksportimine ebaõnnestus,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigSuccess,Konfiguratsiooni eksportimine õnnestus faili,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigTitle,Konfiguratsiooni eksport,
@@ -910,8 +916,13 @@ ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Restart
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Starts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Stops the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Teenuse haldus,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Teenus: peatatud (uuesti laadimine),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Teenus: peatamise ootel,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Teenus: jätkamine,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Teenus: töötab,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Teenus: käivitamine,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Teenus: peatatud,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Teenus: peatamine,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Teenus: teadmata,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Teenused,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,Imporditud %1 teenust konfiguratsioonifailist '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly

@@ -861,10 +861,16 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Failed to save d
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Saving data variables failed for the following directory: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,The following Service has no RuleSet assigned: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,The following Service will not work with your current license: ,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Error Starting Service,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,The Service could not be started in 20 seconds.,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Error Stopping Service,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,The Service could not be stopped in 20 seconds.,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Service start is taking longer than expected,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"The Configuration Client stopped waiting after 30 seconds. The background service may still be starting.
+
+Please check the Windows Services console (services.msc) for the current status.",
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Service stop is taking longer than expected,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,"The Configuration Client stopped waiting after 30 seconds. The background service may still be shutting down.
+
+Please check the Windows Services console (services.msc) for the current status. If the status is Stopping, wait until it becomes Stopped.
+
+If the service stays in Stopping for a long time while the system is idle, review General > Protect against shutdown in your product documentation and contact support.",
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigFailed,Failed to export configuration into file ,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigSuccess,Successfully exported configuration into file ,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigTitle,Configuration Export,
@@ -910,8 +916,13 @@ ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Restart
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Starts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Stops the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Service Management,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Service: Paused (Reloading),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Service: Pausing,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Service: Resuming,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Service: Running,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Service: Starting,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Service: Stopped,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Service: Stopping,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Service: Unknown,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Services,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,Imported %1 Services from configuration file '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly

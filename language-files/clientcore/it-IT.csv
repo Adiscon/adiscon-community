@@ -861,10 +861,16 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Impossibile salv
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Il salvataggio delle variabili di dati non è riuscito per la seguente directory:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,Al seguente servizio non è assegnato alcun set di regole:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,Il seguente servizio non funzionerà con la licenza attuale:,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Errore durante l'avvio del servizio,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,Impossibile avviare il servizio entro 20 secondi.,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,Errore durante l'arresto del servizio,
-ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,Impossibile arrestare il servizio entro 20 secondi.,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,L'avvio del servizio sta richiedendo più tempo del previsto,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"Il Configuration Client ha interrotto l'attesa dopo 30 secondi. Il servizio in background potrebbe essere ancora in avvio.
+
+Verificare lo stato attuale nella console Servizi di Windows (services.msc).",
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingService,L'arresto del servizio sta richiedendo più tempo del previsto,
+ClientCore/frmMainTemplate,Main Template Form,szErrorStoppingServiceMsg,"Il Configuration Client ha interrotto l'attesa dopo 30 secondi. Il servizio in background potrebbe essere ancora in arresto.
+
+Verificare lo stato attuale nella console Servizi di Windows (services.msc). Se lo stato è «In arresto», attendere fino a «Arrestato».
+
+Se il servizio resta a lungo nello stato «In arresto» a sistema inattivo, consultare la documentazione del prodotto in Generale > Proteggi il servizio dallo spegnimento e contattare il supporto.",
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigFailed,Impossibile esportare la configurazione nel file,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigSuccess,Configurazione esportata correttamente nel file,
 ClientCore/frmMainTemplate,Main Template Form,szExportConfigTitle,Esportazione della configurazione,
@@ -910,8 +916,13 @@ ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Restart
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Starts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Stops the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Gestione dei servizi,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Servizio: in pausa (Ricaricamento),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Servizio: pausa in corso,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Servizio: ripresa in corso,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Servizio: in esecuzione,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Servizio: in avvio,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Servizio: arrestato,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Servizio: in arresto,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Servizio: sconosciuto,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Servizi,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,%1 servizi importati dal file di configurazione '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
