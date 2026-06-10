@@ -766,6 +766,7 @@ ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceDisplayName.Text,Nome 
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceMonitor.Text,Monitor servizio NT,
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceName.Text,Nome del servizio NT,
 ClientCore/frmMainTemplate,Main Template Form,mnuNetworkDiscovery.Text,Scoperta della rete,
+ClientCore/frmMainTemplate,Main Template Form,mnuOpenWindowsServices.Text,Apri servizi Windows,
 ClientCore/frmMainTemplate,Main Template Form,mnuOptions.Text,Opzioni,
 ClientCore/frmMainTemplate,Main Template Form,mnuOtherServices.Text,Servizi aggiuntivi,
 ClientCore/frmMainTemplate,Main Template Form,mnuPOP3Probe.Text,POP3 Probe,
@@ -859,8 +860,19 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfiguration,Errore 
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfigurationText,Impossibile salvare la configurazione:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Impossibile salvare le variabili dei dati,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Il salvataggio delle variabili di dati non è riuscito per la seguente directory:,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlocked,Il servizio non accetta comandi di controllo,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedMsg,"Errore Windows 1061: Il servizio non può accettare comandi di arresto, avvio o riavvio in questo momento. Potrebbe essere occupato o in uno stato incoerente.
+
+Terminare forzatamente il processo del servizio in background? I dati non salvati potrebbero andare persi.",
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedNoProcessMsg,"Errore Windows 1061: Il servizio non può accettare comandi di controllo in questo momento.
+
+Nessun processo del servizio in background trovato. Attendere e controllare la console Servizi di Windows (services.msc).",
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,Al seguente servizio non è assegnato alcun set di regole:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,Il seguente servizio non funzionerà con la licenza attuale:,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePaused,Il servizio sta ricaricando la configurazione,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePausedMsg,"Il servizio in background è in pausa durante il ricaricamento della configurazione. Arresta e Riavvia sono disabilitati perché possono rendere il servizio instabile.
+
+Attendere che lo stato torni a In esecuzione.",
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,L'avvio del servizio sta richiedendo più tempo del previsto,
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"Il Configuration Client ha interrotto l'attesa dopo 30 secondi. Il servizio in background potrebbe essere ancora in avvio.
 
@@ -885,6 +897,16 @@ ClientCore/frmMainTemplate,Main Template Form,szImportingConfiguration,Importazi
 ClientCore/frmMainTemplate,Main Template Form,szInitClient,Cliente Iniziatore,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDef,Definizioni di configurazione inizializzazione,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDisplay,Visualizzazione della configurazione iniziale,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmMsg,Il processo del servizio in background verrà terminato forzatamente. I dati non salvati potrebbero andare persi. Continuare?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmTitle,Terminare il processo del servizio?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailed,Impossibile terminare il processo del servizio,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailedMsg,"Il Configuration Client non ha potuto terminare il processo del servizio in background. Il processo potrebbe essere protetto o il client potrebbe richiedere diritti di amministratore.
+
+Riprovare con privilegi elevati oppure terminare il processo tramite Gestione attività di Windows o services.msc.",
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailed,Impossibile terminare tutti i processi del servizio,
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailedMsg,"Almeno un processo di servizio in background corrispondente è stato terminato, ma un altro processo corrispondente è ancora in esecuzione.
+
+Riprovare con privilegi elevati oppure terminare il processo rimanente tramite Gestione attività di Windows o services.msc.",
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,Le impostazioni della lingua sono cambiate,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,Hai cambiato le impostazioni della lingua.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,Per completare le modifiche è necessario ricaricare l'applicazione Client.,
@@ -912,17 +934,32 @@ ClientCore/frmMainTemplate,Main Template Form,szResetDefaultTitle,Ripristina le 
 ClientCore/frmMainTemplate,Main Template Form,szRuleSets,Set di regole,
 ClientCore/frmMainTemplate,Main Template Form,szRuleSetsAdded,%1 set di regole importati dal file di configurazione '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szSavingConfiguration,Salvataggio della configurazione...,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledControlBlocked,Windows non può inviare comandi di controllo al servizio — usare di nuovo Arresta per terminare il processo o controllare services.msc,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledInProgress,Il controllo del servizio è temporaneamente non disponibile,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNoAccess,Impossibile controllare il servizio — avviare il Configuration Client come amministratore,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNotInstalled,Il servizio Windows non è installato,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledOrphan,Il processo del servizio è in esecuzione senza controllo del servizio Windows — usare Termina servizio nel menu Strumenti,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPaused,Il servizio è in pausa (ricaricamento configurazione) — Arresta e Riavvia sono disabilitati fino al completamento del ricaricamento,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPausing,Il servizio si sta mettendo in pausa — attendere,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledResuming,Il servizio sta riprendendo — attendere,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStarting,Il servizio si sta avviando — attendere,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStopping,Il servizio si sta arrestando — attendere,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Restarts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Starts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Stops the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Gestione dei servizi,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusControlBlocked,Servizio: Controllo non disponibile,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Servizio: in pausa (Ricaricamento),
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Servizio: pausa in corso,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusProcessWithoutService,Servizio: Processo in esecuzione senza servizio,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Servizio: ripresa in corso,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Servizio: in esecuzione,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Servizio: in avvio,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Servizio: arrestato,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Servizio: in arresto,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableAccessDenied,Servizio: Impossibile interrogare (accesso negato),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableNotInstalled,Servizio: Non installato,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableWin32,Servizio: Non disponibile,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Servizio: sconosciuto,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Servizi,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,%1 servizi importati dal file di configurazione '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly

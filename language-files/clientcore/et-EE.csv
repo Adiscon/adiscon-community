@@ -766,6 +766,7 @@ ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceDisplayName.Text,NT-te
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceMonitor.Text,NT-teenuse monitor,
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceName.Text,NT-teenuse nimi,
 ClientCore/frmMainTemplate,Main Template Form,mnuNetworkDiscovery.Text,Võrgu avastamine,
+ClientCore/frmMainTemplate,Main Template Form,mnuOpenWindowsServices.Text,Ava Windowsi teenused,
 ClientCore/frmMainTemplate,Main Template Form,mnuOptions.Text,Valikud,
 ClientCore/frmMainTemplate,Main Template Form,mnuOtherServices.Text,Muud teenused,
 ClientCore/frmMainTemplate,Main Template Form,mnuPOP3Probe.Text,POP3 sond,
@@ -859,8 +860,19 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfiguration,Viga ko
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfigurationText,Konfiguratsiooni ei saanud salvestada:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Andmemuutujate salvestamine ebaõnnestus,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Andmemuutujate salvestamine ebaõnnestus järgmises kataloogis:,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlocked,Teenus ei aktsepteeri juhtimiskäske,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedMsg,"Windowsi viga 1061: Teenus ei saa praegu vastu võtta peatamise, käivitamise ega taaskäivitamise käske. Teenus võib olla hõivatud või ebaühtses olekus.
+
+Kas soovite taustateenuse protsessi sunniviisiliselt lõpetada? Salvestamata andmed võivad kaduda.",
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedNoProcessMsg,"Windowsi viga 1061: Teenus ei saa praegu juhtimiskäske vastu võtta.
+
+Taustateenuse protsessi ei leitud. Oodake ja kontrollige Windowsi teenuste konsooli (services.msc).",
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,Järgmisele teenusele ei ole reeglistikku määratud:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,Järgmine teenus ei tööta teie praeguse litsentsiga:,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePaused,Teenus laadib konfiguratsiooni uuesti,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePausedMsg,"Taustateenus on konfiguratsiooni uuesti laadimise ajal peatatud. Peata ja Taaskäivita on keelatud, sest need võivad teenuse ebastabiilseks muuta.
+
+Oodake, kuni olek naaseb Töötab olekusse.",
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Teenuse käivitamine võtab oodatust kauem aega,
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"Configuration Client lõpetas ootamise 30 sekundi järel. Taustateenus võib endiselt käivituda.
 
@@ -885,6 +897,16 @@ ClientCore/frmMainTemplate,Main Template Form,szImportingConfiguration,Konfigura
 ClientCore/frmMainTemplate,Main Template Form,szInitClient,Initsieeriv klient,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDef,Algkonfiguratsiooni määratlused,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDisplay,Init konfiguratsiooni kuva,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmMsg,See lõpetab taustateenuse protsessi sunniviisiliselt. Salvestamata andmed võivad kaduda. Kas jätkata?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmTitle,Kas lõpetada teenuse protsess?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailed,Teenuse protsessi ei saanud lõpetada,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailedMsg,"Configuration Client ei saanud taustateenuse protsessi lõpetada. Protsess võib olla kaitstud või klient võib vajada administraatori õigusi.
+
+Proovige uuesti tõstetud õigustega või lõpetage protsess Windowsi tegumihalduri või services.msc abil.",
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailed,Kõiki teenuse protsesse ei saanud lõpetada,
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailedMsg,"Vähemalt üks sobiv taustateenuse protsess lõpetati, kuid teine sobiv protsess töötab endiselt.
+
+Proovige uuesti tõstetud õigustega või lõpetage ülejäänud protsess Windowsi tegumihalduri või services.msc abil.",
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,Keeleseadeid muudetud,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,Olete muutnud keeleseadeid.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,Muudatuste lõpuleviimiseks on vaja kliendirakendus uuesti laadida.,
@@ -912,17 +934,32 @@ ClientCore/frmMainTemplate,Main Template Form,szResetDefaultTitle,Lähtestage va
 ClientCore/frmMainTemplate,Main Template Form,szRuleSets,Reeglistikud,
 ClientCore/frmMainTemplate,Main Template Form,szRuleSetsAdded,Imporditud %1 reeglistikku konfiguratsioonifailist '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szSavingConfiguration,Seadistuse salvestamine ...,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledControlBlocked,"Windows ei saa praegu teenusele juhtimiskäske saata — kasutage uuesti Peata, et protsess lõpetada, või kontrollige services.msc",
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledInProgress,Teenuse juhtimine on ajutiselt kättesaamatu,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNoAccess,Teenust ei saa juhtida — proovige Configuration Clienti käivitada administraatorina,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNotInstalled,Windowsi teenus pole installitud,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledOrphan,Teenuse protsess töötab ilma Windowsi teenuse juhtimiseta — kasutage Tööriistad menüüs Lõpeta teenus,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPaused,Teenus on peatatud (konfiguratsiooni uuesti laadimine) — Peata ja Taaskäivita on keelatud kuni laadimine lõpeb,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPausing,Teenus peatatakse — palun oodake,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledResuming,Teenus jätkub — palun oodake,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStarting,Teenus käivitub — palun oodake,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStopping,Teenus peatub — palun oodake,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Restarts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Starts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Stops the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Teenuse haldus,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusControlBlocked,Teenus: juhtimine pole saadaval,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Teenus: peatatud (uuesti laadimine),
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Teenus: peatamise ootel,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusProcessWithoutService,Teenus: protsess töötab ilma teenuseta,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Teenus: jätkamine,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Teenus: töötab,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Teenus: käivitamine,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Teenus: peatatud,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Teenus: peatamine,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableAccessDenied,Teenus: päring ebaõnnestus (juurdepääs keelatud),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableNotInstalled,Teenus: pole installitud,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableWin32,Teenus: pole saadaval,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Teenus: teadmata,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Teenused,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,Imporditud %1 teenust konfiguratsioonifailist '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly

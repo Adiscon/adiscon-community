@@ -766,6 +766,7 @@ ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceDisplayName.Text,NT Se
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceMonitor.Text,NT Service Monitor,
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceName.Text,NT Service Name,
 ClientCore/frmMainTemplate,Main Template Form,mnuNetworkDiscovery.Text,Network Discovery,
+ClientCore/frmMainTemplate,Main Template Form,mnuOpenWindowsServices.Text,Open Windows Services,
 ClientCore/frmMainTemplate,Main Template Form,mnuOptions.Text,Options,
 ClientCore/frmMainTemplate,Main Template Form,mnuOtherServices.Text,Other Services,
 ClientCore/frmMainTemplate,Main Template Form,mnuPOP3Probe.Text,POP3 Probe,
@@ -859,8 +860,19 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfiguration,Error S
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfigurationText,The Configuration could not be saved: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Failed to save data variables,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Saving data variables failed for the following directory: ,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlocked,Service cannot accept control commands,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedMsg,"Windows error 1061: The service cannot accept stop, start, or restart commands right now. The service may be busy or in an inconsistent state.
+
+Do you want to forcibly terminate the background service process? Unsaved data may be lost.",
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedNoProcessMsg,"Windows error 1061: The service cannot accept stop, start, or restart commands right now.
+
+No background service process was found. Please wait and check the Windows Services console (services.msc).",
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,The following Service has no RuleSet assigned: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,The following Service will not work with your current license: ,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePaused,Service is reloading configuration,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePausedMsg,"The background service is paused while it reloads configuration. Stop and Restart are disabled at this time because they can leave the service in an unstable state.
+
+Please wait until the status returns to Running.",
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Service start is taking longer than expected,
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"The Configuration Client stopped waiting after 30 seconds. The background service may still be starting.
 
@@ -885,6 +897,16 @@ ClientCore/frmMainTemplate,Main Template Form,szImportingConfiguration,Importing
 ClientCore/frmMainTemplate,Main Template Form,szInitClient,Initiating Client,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDef,Init configuration definitions,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDisplay,Init configuration display,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmMsg,This will forcibly terminate the background service process. Unsaved data may be lost. Continue?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmTitle,Kill service process?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailed,Could not kill service process,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailedMsg,"The Configuration Client could not terminate the background service process. The process may be protected or the client may need to run with administrator rights.
+
+Please try again from an elevated session, or end the process using Windows Task Manager or services.msc.",
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailed,Could not kill all service processes,
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailedMsg,"At least one matching background service process was terminated, but another matching process is still running.
+
+Please try again from an elevated session, or end the remaining process using Windows Task Manager or services.msc.",
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,Language Settings changed,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,You have changed the language settings.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,A reload of the Client application is needed in order to complete the changes.,
@@ -912,17 +934,32 @@ ClientCore/frmMainTemplate,Main Template Form,szResetDefaultTitle,Reset to defau
 ClientCore/frmMainTemplate,Main Template Form,szRuleSets,RuleSets,
 ClientCore/frmMainTemplate,Main Template Form,szRuleSetsAdded,Imported %1 RuleSets from configuration file '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szSavingConfiguration,Saving configuration ...,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledControlBlocked,"Windows cannot send service control commands right now — use Stop again to kill the process, or check services.msc",
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledInProgress,Service control is temporarily unavailable,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNoAccess,Cannot control the service — try running the Configuration Client as administrator,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNotInstalled,The Windows service is not installed,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledOrphan,Service process is running without Windows service control — use Kill service from the Tools menu,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPaused,Service is paused (reloading configuration) — Stop and Restart are disabled until reload completes,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPausing,Service is pausing — please wait,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledResuming,Service is resuming — please wait,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStarting,Service is starting — please wait,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStopping,Service is stopping — please wait,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Restarts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Starts the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Stops the Background Service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Service Management,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusControlBlocked,Service: Control unavailable,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Service: Paused (Reloading),
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Service: Pausing,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusProcessWithoutService,Service: Process running without service,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Service: Resuming,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Service: Running,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Service: Starting,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Service: Stopped,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Service: Stopping,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableAccessDenied,Service: Cannot query service (access denied),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableNotInstalled,Service: Not installed,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableWin32,Service: Unavailable,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Service: Unknown,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Services,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,Imported %1 Services from configuration file '%2'.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
