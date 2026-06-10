@@ -762,6 +762,7 @@ ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceDisplayName.Text,NT �
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceMonitor.Text,NT サービス モニタ,
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceName.Text,NT サービス名,
 ClientCore/frmMainTemplate,Main Template Form,mnuNetworkDiscovery.Text,ネットワークの検出,
+ClientCore/frmMainTemplate,Main Template Form,mnuOpenWindowsServices.Text,Windows サービスを開く,
 ClientCore/frmMainTemplate,Main Template Form,mnuOptions.Text,オプション,
 ClientCore/frmMainTemplate,Main Template Form,mnuOtherServices.Text,その他のサービス,
 ClientCore/frmMainTemplate,Main Template Form,mnuPOP3Probe.Text,POP3 探査,
@@ -855,8 +856,19 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfiguration,設定�
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfigurationText,設定が保存できませんでした: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,データ変数の保存に失敗しました,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,以下のディレクトリでデータ変数の保存に失敗しました: ,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlocked,サービスは制御コマンドを受け付けません,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedMsg,"Windows エラー 1061: サービスは現在、停止、開始、または再起動のコマンドを受け付けできません。サービスがビジー状態であるか、不整合な状態にある可能性があります。
+
+バックグラウンド サービス プロセスを強制終了しますか? 未保存のデータが失われる場合があります。",
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedNoProcessMsg,"Windows エラー 1061: サービスは現在、制御コマンドを受け付けできません。
+
+バックグラウンド サービス プロセスが見つかりませんでした。しばらく待ってから Windows サービス コンソール (services.msc) を確認してください。",
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,以下のサービスはルールセットが設定されていません: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,このサービスはお持ちのライセンスでは使用できません:,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePaused,サービスは設定を再読み込み中です,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePausedMsg,"バックグラウンド サービスは設定を再読み込み中のため一時停止しています。[停止] と [再起動] は、サービスが不安定になる可能性があるため現在使用できません。
+
+ステータスが [実行中] に戻るまでお待ちください。",
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,サービスの開始に予想より時間がかかっています,
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"30秒経過後、Configuration Clientは待機を終了しました。バックグラウンド サービスはまだ開始中の可能性があります。
 
@@ -881,6 +893,16 @@ ClientCore/frmMainTemplate,Main Template Form,szImportingConfiguration,Importing
 ClientCore/frmMainTemplate,Main Template Form,szInitClient,クライアントを起動,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDef,Init 設定の定義,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDisplay,Init 設定の表示,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmMsg,バックグラウンド サービス プロセスを強制終了します。未保存のデータが失われる場合があります。続行しますか?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmTitle,サービス プロセスを強制終了しますか?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailed,サービス プロセスを強制終了できませんでした,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailedMsg,"Configuration Client はバックグラウンド サービス プロセスを終了できませんでした。プロセスが保護されているか、管理者として実行する必要がある可能性があります。
+
+昇格したセッションで再試行するか、Windows タスク マネージャーまたは services.msc でプロセスを終了してください。",
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailed,すべてのサービス プロセスを強制終了できませんでした,
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailedMsg,"一致するバックグラウンド サービス プロセスの少なくとも 1 つは終了しましたが、別の一致するプロセスがまだ実行中です。
+
+昇格したセッションで再試行するか、Windows タスク マネージャーまたは services.msc で残りのプロセスを終了してください。",
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,言語が変更されました,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,言語を変更しますか？,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,変更するにはクライアントをリロードする必要があります,
@@ -908,17 +930,32 @@ ClientCore/frmMainTemplate,Main Template Form,szResetDefaultTitle,デフォル�
 ClientCore/frmMainTemplate,Main Template Form,szRuleSets,ルールセット,
 ClientCore/frmMainTemplate,Main Template Form,szRuleSetsAdded,ルールセット %1 を設定ファイル '%2' からインポートしました,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szSavingConfiguration,設定を保存しています ...,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledControlBlocked,Windows は現在サービス制御コマンドを送信できません — もう一度 [停止] でプロセスを終了するか、services.msc を確認してください,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledInProgress,サービス制御は一時的に利用できません,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNoAccess,サービスを制御できません — Configuration Client を管理者として実行してください,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNotInstalled,Windows サービスがインストールされていません,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledOrphan,サービス プロセスが Windows サービス制御なしで実行中です — [ツール] メニューの [サービスを強制終了] を使用してください,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPaused,サービスは一時停止中 (設定を再読み込み中) — 再読み込みが完了するまで [停止] と [再起動] は無効です,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPausing,サービスを一時停止しています — お待ちください,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledResuming,サービスを再開しています — お待ちください,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStarting,サービスを開始しています — お待ちください,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStopping,サービスを停止しています — お待ちください,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,バックグラウンド サービスを再起動します,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,バックグラウンド サービスを開始します,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,バックグラウンド サービスを停止します,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,サービス管理,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusControlBlocked,サービス: 制御不可,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,サービス: 一時停止 (再読み込み中),
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,サービス: 一時停止中,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusProcessWithoutService,サービス: サービスなしでプロセスが実行中,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,サービス: 再開中,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,サービス: 実行中,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,サービス: 開始中,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,サービス: 停止,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,サービス: 停止中,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableAccessDenied,サービス: 照会できません (アクセス拒否),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableNotInstalled,サービス: 未インストール,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableWin32,サービス: 利用不可,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,サービス: 不明,
 ClientCore/frmMainTemplate,Main Template Form,szServices,サービス,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,サービス %1 を設定ファイル '%2' からインポートしました,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly

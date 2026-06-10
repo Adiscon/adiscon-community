@@ -762,6 +762,7 @@ ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceDisplayName.Text,NT Se
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceMonitor.Text,NT Service Monitor,
 ClientCore/frmMainTemplate,Main Template Form,mnuNTServiceName.Text,NT Service Name,
 ClientCore/frmMainTemplate,Main Template Form,mnuNetworkDiscovery.Text,Netzwerk durchsuchen,
+ClientCore/frmMainTemplate,Main Template Form,mnuOpenWindowsServices.Text,Windows-Dienste öffnen,
 ClientCore/frmMainTemplate,Main Template Form,mnuOptions.Text,Optionen,
 ClientCore/frmMainTemplate,Main Template Form,mnuOtherServices.Text,Andere Dienste,
 ClientCore/frmMainTemplate,Main Template Form,mnuPOP3Probe.Text,POP3 Probe,
@@ -855,8 +856,19 @@ ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfiguration,Fehler 
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingConfigurationText,Die Konfiguration konnte nicht gespeichert werden:,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingData,Fehler beim speichern von datenvariablen,
 ClientCore/frmMainTemplate,Main Template Form,szErrorSavingDataText,Datenvariablen konnten nicht in folgendes Verzeichnis gespeichert werden: ,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlocked,Dienst akzeptiert keine Steuerbefehle,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedMsg,"Windows-Fehler 1061: Der Dienst akzeptiert derzeit keine Befehle zum Stoppen, Starten oder Neustarten. Der Dienst ist möglicherweise beschäftigt oder in einem inkonsistenten Zustand.
+
+Möchten Sie den Hintergrunddienstprozess zwangsweise beenden? Nicht gespeicherte Daten können verloren gehen.",
+ClientCore/frmMainTemplate,Main Template Form,szErrorServiceControlBlockedNoProcessMsg,"Windows-Fehler 1061: Der Dienst akzeptiert derzeit keine Steuerbefehle.
+
+Es wurde kein Hintergrunddienstprozess gefunden. Bitte warten und die Windows-Diensteverwaltung (services.msc) prüfen.",
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNoRuleSet,The following Service has no RuleSet assigned: ,
 ClientCore/frmMainTemplate,Main Template Form,szErrorServiceNotLicensed,Der folgende Dienste wird mit ihrer aktuellen Lizenz nicht funktionieren: ,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePaused,Dienst lädt die Konfiguration neu,
+ClientCore/frmMainTemplate,Main Template Form,szErrorServicePausedMsg,"Der Hintergrunddienst ist angehalten, während die Konfiguration neu geladen wird. Stoppen und Neustart sind derzeit deaktiviert, da sie den Dienst instabil machen können.
+
+Bitte warten, bis der Status wieder Running anzeigt.",
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingService,Service-Start dauert länger als erwartet,
 ClientCore/frmMainTemplate,Main Template Form,szErrorStartingServiceMsg,"Der Configuration Client hat nach 30 Sekunden aufgehört zu warten. Der Hintergrunddienst wird möglicherweise noch gestartet.
 
@@ -881,6 +893,16 @@ ClientCore/frmMainTemplate,Main Template Form,szImportingConfiguration,Importier
 ClientCore/frmMainTemplate,Main Template Form,szInitClient,Initialisiere Client,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDef,Init Konfigurationsdefinitionen,
 ClientCore/frmMainTemplate,Main Template Form,szInitConfigDisplay,Init Konfigurationsdarstellung,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmMsg,Der Hintergrunddienstprozess wird zwangsweise beendet. Nicht gespeicherte Daten können verloren gehen. Fortfahren?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceConfirmTitle,Dienstprozess beenden?,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailed,Dienstprozess konnte nicht beendet werden,
+ClientCore/frmMainTemplate,Main Template Form,szKillServiceFailedMsg,"Der Configuration Client konnte den Hintergrunddienstprozess nicht beenden. Der Prozess ist möglicherweise geschützt oder der Client benötigt Administratorrechte.
+
+Versuchen Sie es erneut mit erhöhten Rechten oder beenden Sie den Prozess über den Windows Task-Manager oder services.msc.",
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailed,Nicht alle Dienstprozesse konnten beendet werden,
+ClientCore/frmMainTemplate,Main Template Form,szKillServicePartialFailedMsg,"Mindestens ein passender Hintergrunddienstprozess wurde beendet, aber ein weiterer passender Prozess läuft noch.
+
+Versuchen Sie es erneut mit erhöhten Rechten oder beenden Sie den verbleibenden Prozess über den Windows Task-Manager oder services.msc.",
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,Spracheinstellungen wurden verändert,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,Sie haben die Spracheinstellungen verändert.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,"Der Konfigurationsclient muss neu geladen werden, damit die Änderung durchgeführt werden kann.",
@@ -908,17 +930,32 @@ ClientCore/frmMainTemplate,Main Template Form,szResetDefaultTitle,Auf Default zu
 ClientCore/frmMainTemplate,Main Template Form,szRuleSets,Regelsätze,
 ClientCore/frmMainTemplate,Main Template Form,szRuleSetsAdded,Es wurden %1 Regelsätze aus der Konfigurationsdatei '%2' importiert. ,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szSavingConfiguration,Speichere Konfiguration ...,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledControlBlocked,"Windows kann derzeit keine Dienststeuerbefehle senden — Stop erneut verwenden, um den Prozess zu beenden, oder services.msc prüfen",
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledInProgress,Dienststeuerung vorübergehend nicht verfügbar,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNoAccess,Dienst kann nicht gesteuert werden — Configuration Client ggf. als Administrator starten,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledNotInstalled,Der Windows-Dienst ist nicht installiert,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledOrphan,Dienstprozess läuft ohne Windows-Dienststeuerung — Dienst beenden im Menü Extras verwenden,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPaused,Dienst ist angehalten (Konfiguration wird neu geladen) — Stoppen und Neustart sind bis zum Ende des Neuladens deaktiviert,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledPausing,Dienst wird angehalten — bitte warten,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledResuming,Dienst wird fortgesetzt — bitte warten,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStarting,Dienst wird gestartet — bitte warten,
+ClientCore/frmMainTemplate,Main Template Form,szServiceButtonDisabledStopping,Dienst wird gestoppt — bitte warten,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintRestart,Startet den Hintergrunddienst neu,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStart,Startet den Hintergrunddienst,
 ClientCore/frmMainTemplate,Main Template Form,szServiceButtonHintStop,Stoppt den Hintergrunddienst,
 ClientCore/frmMainTemplate,Main Template Form,szServiceEvents,Serviceverwaltung,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusControlBlocked,Dienst: Steuerung nicht verfügbar,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPaused,Dienst: Angehalten (Neuladen),
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusPausing,Dienst: Wird angehalten,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusProcessWithoutService,Dienst: Prozess läuft ohne Dienst,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusResuming,Dienst: Wird fortgesetzt,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusRunning,Dienst: Läuft,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStarting,Dienst: Wird gestartet,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopped,Dienst: Gestoppt,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusStopping,Dienst: Wird beendet,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableAccessDenied,Dienst: Abfrage nicht möglich (Zugriff verweigert),
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableNotInstalled,Dienst: Nicht installiert,
+ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnavailableWin32,Dienst: Nicht verfügbar,
 ClientCore/frmMainTemplate,Main Template Form,szServiceStatusUnknown,Dienst: Unbekannt,
 ClientCore/frmMainTemplate,Main Template Form,szServices,Dienste,
 ClientCore/frmMainTemplate,Main Template Form,szServicesAdded,Es wurden %1 Dienste aus der Konfigurationsdatei '%2' importiert.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
