@@ -983,6 +983,8 @@ ClientCore/frmMainTemplate,Main Template Form,szWarnTrialExpired,"試用期間�
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfiguration,設定保存に関する警告,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationBackup,古い設定ファイルのバックアップに失敗しました。以下のファイルへの設定保存に失敗した可能性があります：,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationOldFile,古い設定ファイルの削除に失敗しました。そのファイルは他のプロセスによりブロックされているようです。以下のファイルは手動で削除してください：,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItems,不明な設定項目,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItemsText,この設定には、このクライアント版でサポートされていない項目が含まれています。読み込み時にスキップされました。このクライアントで設定を保存すると、これらの項目は失われます。保存する前に設定ファイルのバックアップを取ることをお勧めします。,
 ClientCore/frmMainTemplate,Main Template Form,tABToolStripMenuItem.Text,TAB,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items,Enabled,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items1,Disabled,

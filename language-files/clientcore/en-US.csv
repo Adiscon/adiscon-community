@@ -987,6 +987,8 @@ The configuration will be saved but the application needs to be licensed in orde
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfiguration,Warning while saving Configuration,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationBackup,Failed to backup old configuration file. Saving the configuration into the following file may fail: ,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationOldFile,Failed to delete an old configuration file. The file maybe blocked by another process. You will have to manually delete the following file: ,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItems,Unknown Configuration Items,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItemsText,"This configuration contains items that are not supported by this client version. They were skipped during load. If you save the configuration with this client, those items will be lost. We recommend backing up the configuration file before saving.",
 ClientCore/frmMainTemplate,Main Template Form,tABToolStripMenuItem.Text,TAB,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items,Enabled,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items1,Disabled,

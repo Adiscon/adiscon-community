@@ -986,6 +986,8 @@ A configuração será salva, mas o aplicativo precisa ser licenciado para conti
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfiguration,Aviso ao salvar a configuração,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationBackup,Falha ao fazer backup do arquivo de configuração antigo. Salvar a configuração no seguinte arquivo pode falhar:,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationOldFile,Falha ao excluir um arquivo de configuração antigo. O arquivo pode estar bloqueado por outro processo. Você terá que excluir manualmente o seguinte arquivo:,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItems,Itens de configuração desconhecidos,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItemsText,"Esta configuração contém itens não suportados por esta versão do cliente. Eles foram ignorados durante o carregamento. Se você salvar a configuração com este cliente, esses itens serão perdidos. Recomendamos fazer backup do arquivo de configuração antes de salvar.",
 ClientCore/frmMainTemplate,Main Template Form,tABToolStripMenuItem.Text,TAB,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items,Enabled,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items1,Disabled,
