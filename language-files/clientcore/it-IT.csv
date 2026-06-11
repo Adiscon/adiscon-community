@@ -987,6 +987,8 @@ La configurazione verrà salvata ma l'applicazione dovrà disporre di una licenz
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfiguration,Avviso durante il salvataggio della configurazione,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationBackup,Impossibile eseguire il backup del vecchio file di configurazione. Il salvataggio della configurazione nel seguente file potrebbe non riuscire:,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationOldFile,Impossibile eliminare un vecchio file di configurazione. Il file potrebbe essere bloccato da un altro processo. Dovrai eliminare manualmente il seguente file:,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItems,Elementi di configurazione sconosciuti,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItemsText,"Questa configurazione contiene elementi non supportati da questa versione del client. Sono stati ignorati durante il caricamento. Se si salva la configurazione con questo client, tali elementi andranno persi. Si consiglia di eseguire il backup del file di configurazione prima di salvare.",
 ClientCore/frmMainTemplate,Main Template Form,tABToolStripMenuItem.Text,TAB,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items,Enabled,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items1,Disabled,

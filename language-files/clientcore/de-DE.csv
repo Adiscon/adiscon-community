@@ -983,6 +983,8 @@ Ihre Konfiguration wird zwar gesichert, aber die Anwendung benötigt eine gülti
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfiguration,Warning beim speichern der Konfiguration,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationBackup,Fehler beim sichern der alten Konfigurationsdatei. Speichern der Konfiguration in die folgende Datei könnte fehlschlagen: ,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationOldFile,Fehler beim löschen einer alten Konfigurationsdatei. Die Datei ist wahrscheinlich von einem anderen Programm geöffnet. Sie werden die folgende Datei von Hand löschen müssen: ,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItems,Unbekannte Konfigurationselemente,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItemsText,"Diese Konfiguration enthält Elemente, die von dieser Client-Version nicht unterstützt werden. Sie wurden beim Laden übersprungen. Wenn Sie die Konfiguration mit diesem Client speichern, gehen diese Elemente verloren. Wir empfehlen, die Konfigurationsdatei vor dem Speichern zu sichern.",
 ClientCore/frmMainTemplate,Main Template Form,tABToolStripMenuItem.Text,TAB,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items,Enabled,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items1,Disabled,

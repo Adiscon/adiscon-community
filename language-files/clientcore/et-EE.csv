@@ -987,6 +987,8 @@ Konfiguratsioon salvestatakse, kuid rakendus peab töö jätkamiseks olema litse
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfiguration,Hoiatus konfiguratsiooni salvestamisel,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationBackup,Vana konfiguratsioonifaili varundamine ebaõnnestus. Konfiguratsiooni salvestamine järgmisse faili võib ebaõnnestuda:,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationOldFile,Vana konfiguratsioonifaili kustutamine ebaõnnestus. Fail võib olla blokeeritud mõne muu protsessi poolt. Peate järgmise faili käsitsi kustutama:,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItems,Tundmatud konfiguratsiooniüksused,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItemsText,"Selles konfiguratsioonis on üksusi, mida see kliendiversioon ei toeta. Need jäeti laadimisel vahele. Kui salvestate konfiguratsiooni selle kliendiga, need üksused kaovad. Soovitame enne salvestamist konfiguratsioonifailist varukoopia teha.",
 ClientCore/frmMainTemplate,Main Template Form,tABToolStripMenuItem.Text,TAB,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items,Enabled,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items1,Disabled,

@@ -987,6 +987,8 @@ La configuration sera enregistrée mais l'application doit disposer d'une licenc
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfiguration,Avertissement lors de l'enregistrement de la configuration,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationBackup,Échec de la sauvegarde de l'ancien fichier de configuration. L'enregistrement de la configuration dans le fichier suivant peut échouer :,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationOldFile,Échec de la suppression d'un ancien fichier de configuration. Le fichier est peut-être bloqué par un autre processus. Vous devrez supprimer manuellement le fichier suivant :,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItems,Éléments de configuration inconnus,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItemsText,"Cette configuration contient des éléments non pris en charge par cette version du client. Ils ont été ignorés lors du chargement. Si vous enregistrez la configuration avec ce client, ces éléments seront perdus. Nous recommandons de sauvegarder le fichier de configuration avant d'enregistrer.",
 ClientCore/frmMainTemplate,Main Template Form,tABToolStripMenuItem.Text,TAB,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items,Enabled,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items1,Disabled,

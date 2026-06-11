@@ -987,6 +987,8 @@ La configuración se guardará pero la aplicación debe estar licenciada para se
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfiguration,Advertencia al guardar la configuración,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationBackup,Error al crear copia de seguridad del archivo de configuración anterior. Guardar la configuración en el siguiente archivo puede fallar: ,
 ClientCore/frmMainTemplate,Main Template Form,szWarningSavingConfigurationOldFile,Error al eliminar un archivo de configuración anterior. El archivo puede estar bloqueado por otro proceso. Deberá eliminar manualmente el siguiente archivo: ,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItems,Elementos de configuración desconocidos,
+ClientCore/frmMainTemplate,Main Template Form,szWarningUnknownConfigItemsText,"Esta configuración contiene elementos que no son compatibles con esta versión del cliente. Se omitieron durante la carga. Si guarda la configuración con este cliente, esos elementos se perderán. Recomendamos hacer una copia de seguridad del archivo de configuración antes de guardar.",
 ClientCore/frmMainTemplate,Main Template Form,tABToolStripMenuItem.Text,TAB,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items,Enabled,
 ClientCore/frmMainTemplate,Main Template Form,tbCbEnabled.Items1,Disabled,
