@@ -1576,6 +1576,8 @@ ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueBody
 ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueLable,Étiquette de message de file d'attente,
 ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueName,Nom de la file d'attente,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpSendPort,Port RELP,
+ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpWindowSize,Taille de fenêtre RELP,
+ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpWindowSize.tooltip,0 ou 1 = valeur par défaut de la bibliothèque (128 trames non acquittées). Les valeurs supérieures à 1 définissent une fenêtre RELP explicite avant la connexion (maximum 4096).,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSendTimeOut,Délai d'envoi/réception,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nTimeOutSession,Expiration de la session,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nUseSSL,Activez le cryptage SSL/TLS.,

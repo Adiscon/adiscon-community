@@ -1572,6 +1572,8 @@ ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueBody
 ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueLable,Queue Nachricht Label,
 ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueName,Queuename,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpSendPort,RELP Port,
+ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpWindowSize,RELP-Fenstergröße,
+ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpWindowSize.tooltip,0 oder 1 = Bibliotheksstandard (128 unbestätigte Frames). Werte größer als 1 setzen ein explizites RELP-Client-Fenster vor dem Verbindungsaufbau (maximal 4096).,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSendTimeOut,Send /Receive Timeout,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nTimeOutSession,Sitzungs-Timeout,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nUseSSL,SSL/TLS Verschlüsselung aktivieren.,
