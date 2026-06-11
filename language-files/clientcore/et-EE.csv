@@ -1576,6 +1576,8 @@ ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueBody
 ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueLable,Järjekorra sõnumi silt,
 ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueName,Järjekorranimi,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpSendPort,RELP Port,
+ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpWindowSize,RELP akna suurus,
+ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpWindowSize.tooltip,0 või 1 = teegi vaikimisi (128 kinnitamata kaadrit). Väärtused üle 1 määravad enne ühendamist selge RELP kliendi akna (maksimum 4096).,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSendTimeOut,Saatmise/vastuvõtmise ajalõpp,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nTimeOutSession,Seansi ajalõpp,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nUseSSL,Luba SSL/TLS-krüptimine.,

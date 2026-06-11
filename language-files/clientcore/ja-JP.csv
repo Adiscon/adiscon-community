@@ -1577,6 +1577,8 @@ ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueBody
 ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueLable,キューのメッセージラベル,
 ClientCore/xml.languagefiles/Action.SendMSQueue,Send MS Queue Action,szQueueName,キュー名,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpSendPort,RELP ポート,
+ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpWindowSize,RELP ウィンドウサイズ,
+ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSelpWindowSize.tooltip,0 または 1 = ライブラリのデフォルト（未確認フレーム 128）。1 より大きい値は接続前に明示的な RELP ウィンドウを設定します（最大 4096）。,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nSendTimeOut,送信/受信 タイムアウト,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nTimeOutSession,セッションタイムアウト,
 ClientCore/xml.languagefiles/Action.SendRelp,Send Relp Action,nUseSSL,SSL/TLSを使用,
