@@ -925,6 +925,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Do you want
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"The license key is not valid for this product. It may be mistyped, not match the license name, or be corrupted. Check General settings.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,This license key is not valid for this version of the product (wrong release / major version). You need a key that matches this build. Update your license in General settings.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,No license key is configured (license name or primary key is missing). Enter or update your license in General settings.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,No valid license file is configured. Use the License File tab under General settings to specify or deploy a .alic license file.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,No valid license file configured,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,License file valid,

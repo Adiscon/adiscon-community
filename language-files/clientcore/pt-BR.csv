@@ -924,6 +924,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Quer recarr
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"A chave de licença não é válida para este produto. Ela pode estar incorreta, não corresponder ao nome da licença ou estar corrompida. Verifique as configurações gerais.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,Esta chave de licença não é válida para esta versão do produto (versão/release incorreta). É necessária uma chave compatível com esta compilação. Atualize a licença em Configurações gerais.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Nenhuma chave de licença configurada (falta o nome da licença ou a chave principal). Informe ou atualize a licença em Configurações gerais.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,Nenhum arquivo de licença válido está configurado. Use a guia Arquivo de licença em Configurações gerais para especificar ou implantar um arquivo de licença .alic.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Nenhum arquivo de licença válido configurado,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Arquivo de licença válido,
