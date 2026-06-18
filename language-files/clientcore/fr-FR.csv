@@ -925,6 +925,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Voulez-vous
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"La clé de licence n'est pas valide pour ce produit. Elle peut être incorrecte, ne pas correspondre au nom de licence ou être corrompue. Vérifiez les paramètres généraux.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,Cette clé de licence n'est pas valide pour cette version du produit (mauvaise version / release). Il faut une clé adaptée à cette build. Mettez à jour votre licence dans les paramètres généraux.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Aucune clé de licence n'est configurée (nom de licence ou clé principale manquant). Saisissez ou mettez à jour votre licence dans les paramètres généraux.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,Aucun fichier de licence valide n'est configuré. Utilisez l'onglet Fichier de licence dans Paramètres généraux pour spécifier ou déployer un fichier de licence .alic.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Aucun fichier de licence valide configuré,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Fichier de licence valide,

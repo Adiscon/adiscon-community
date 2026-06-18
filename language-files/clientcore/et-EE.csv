@@ -925,6 +925,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Kas soovite
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"Litsentsivõti ei kehti selle toote jaoks. See võib olla vale, mitte sobida litsentsi nimega või olla vigane. Kontrollige üldseadeid.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,See litsentsivõti ei kehti selle tooteversiooni jaoks (vale väljalaskenumber / peaversioon). Vajate sellele kompileeringule vastavat võtit. Uuendage litsents üldseadetes.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Litsentsivõtit pole seadistatud (puudub litsentsi nimi või põhivõti). Sisestage või uuendage litsents üldseadetes.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,Kehtivat litsentsifaili pole seadistatud. Kasutage .alic litsentsifaili määramiseks või juurutamiseks vahekaarti Litsentsifail üldseadetes.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Väljaanne (Versioon ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Kehtivat litsentsifaili pole seadistatud,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Litsentsifail kehtib,

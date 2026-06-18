@@ -921,6 +921,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,リロー�
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,ライセンスキーはこの製品では無効です。誤入力、ライセンス名との不一致、またはデータ破損の可能性があります。一般設定を確認してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,このライセンスキーはこの製品バージョンでは無効です（リリース／メジャーバージョンが一致しません）。このビルドに対応したキーが必要です。一般設定でライセンスを更新してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,ライセンスキーが設定されていません（ライセンス名または主キーがありません）。一般設定でライセンスを入力または更新してください。,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,有効なライセンスファイルが設定されていません。一般設定の「ライセンスファイル」タブで .alic ライセンスファイルを指定または配置してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,有効なライセンスファイルが設定されていません,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,ライセンスファイルは有効,

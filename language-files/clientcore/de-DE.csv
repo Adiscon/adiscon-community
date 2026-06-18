@@ -921,6 +921,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Wollen Sie 
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"Der Lizenzschlüssel ist für dieses Produkt ungültig. Er kann falsch eingegeben sein, nicht zum Lizenznamen passen oder beschädigt sein. Prüfen Sie die Einstellungen unter Allgemein.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,"Dieser Lizenzschlüssel ist für diese Produktversion ungültig (falsche Release- bzw. Hauptversion). Sie benötigen einen Schlüssel, der zu diesem Build passt. Aktualisieren Sie die Lizenz unter Allgemein.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Es ist kein Lizenzschlüssel hinterlegt (Lizenzname oder Hauptschlüssel fehlt). Geben Sie Ihre Lizenz unter Allgemein ein oder aktualisieren Sie sie.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,"Es ist keine gültige Lizenzdatei konfiguriert. Verwenden Sie die Registerkarte „Lizenzdatei“ unter Allgemein, um eine .alic-Lizenzdatei anzugeben oder bereitzustellen.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Keine gültige Lizenzdatei konfiguriert,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Lizenzdatei gültig,
