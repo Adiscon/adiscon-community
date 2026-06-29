@@ -929,8 +929,10 @@ ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Vä
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Kehtivat litsentsifaili pole seadistatud,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Litsentsifail kehtib,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,Tasuta väljaanne (maksimaalselt %1 saatjat),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialDaysRemaining,%1 päeva jäänud,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,Prooviperiood on aegunud või kehtetu litsents (vale versioon?)!,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,"Prooviperiood, päevad jäänud",
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,Prooviperiood,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriodOnly,Prooviperiood,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseValidFor,Litsentsitud,
 ClientCore/frmMainTemplate,Main Template Form,szLoadConfigData,Konfiguratsiooniandmete laadimine,
 ClientCore/frmMainTemplate,Main Template Form,szLoadedRuleSet,Laaditud reeglistik:,

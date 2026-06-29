@@ -925,8 +925,10 @@ ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edi
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Keine gültige Lizenzdatei konfiguriert,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Lizenzdatei gültig,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,Kostenlose Version (Maximal %1 Sender),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialDaysRemaining,%1 Tage übrig,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,"Testphase ist abgelaufen, oder falsche Lizens!",
-ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,"Testphase, Tage übrig ",
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,Testphase,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriodOnly,Testphase,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseValidFor,Lizenz gültig für ,
 ClientCore/frmMainTemplate,Main Template Form,szLoadConfigData,Lädt Konfigurationsdaten,
 ClientCore/frmMainTemplate,Main Template Form,szLoadedRuleSet,Regelsatz geladen: ,
