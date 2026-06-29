@@ -929,8 +929,10 @@ ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edi
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,No valid license file configured,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,License file valid,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,Free Edition (Max %1 senders),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialDaysRemaining,%1 days remaining,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,Trial period expired or invalid license(wrong version?)!,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,"Trial period, days left ",
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,Trial Period,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriodOnly,Trial Period,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseValidFor,Licensed to ,
 ClientCore/frmMainTemplate,Main Template Form,szLoadConfigData,Loading configuration data,
 ClientCore/frmMainTemplate,Main Template Form,szLoadedRuleSet,Loaded RuleSet: ,

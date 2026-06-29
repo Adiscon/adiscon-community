@@ -929,8 +929,10 @@ ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edi
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,No hay un archivo de licencia válido configurado,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Archivo de licencia válido,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,Edición gratuita (máx. %1 remitentes),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialDaysRemaining,Quedan %1 días,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,¡Período de prueba expirado o licencia no válida (¿versión incorrecta?)!,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,"Período de prueba, días restantes ",
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,Período de prueba,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriodOnly,Período de prueba,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseValidFor,Licencia para ,
 ClientCore/frmMainTemplate,Main Template Form,szLoadConfigData,Cargando datos de configuración,
 ClientCore/frmMainTemplate,Main Template Form,szLoadedRuleSet,Conjunto de reglas cargado: ,

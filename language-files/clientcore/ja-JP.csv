@@ -925,8 +925,10 @@ ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edi
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,有効なライセンスファイルが設定されていません,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,ライセンスファイルは有効,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFreeEdition,フリーエディション (最大送信デバイス数：%1),PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialDaysRemaining,残り%1日,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialExpired,試用期間は終了しました！,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,試用期間中/残り日数：,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriod,試用期間,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseTrialPeriodOnly,試用期間,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseValidFor,ライセンスは有効です：,
 ClientCore/frmMainTemplate,Main Template Form,szLoadConfigData,設定データを読み込んでいます,
 ClientCore/frmMainTemplate,Main Template Form,szLoadedRuleSet,ルールセットの読み込み: ,
