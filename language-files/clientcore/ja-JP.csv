@@ -921,6 +921,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,変更す�
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,リロードしますか？,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,ライセンスキーはこの製品では無効です。誤入力、ライセンス名との不一致、またはデータ破損の可能性があります。一般設定を確認してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,このライセンスキーはこの製品バージョンでは無効です（リリース／メジャーバージョンが一致しません）。このビルドに対応したキーが必要です。一般設定でライセンスを更新してください。,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,このライセンスファイルはメジャーバージョン %LICENSEMAJORS% 用ですが、インストール済みサービスはメジャーバージョン %SERVICEMAJOR% を報告しています。更新後はサービスを再起動してライセンスを一致させてください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,ライセンスキーが設定されていません（ライセンス名または主キーがありません）。一般設定でライセンスを入力または更新してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,有効なライセンスファイルが設定されていません。一般設定の「ライセンスファイル」タブで .alic ライセンスファイルを指定または配置してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
@@ -1822,6 +1823,15 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTi
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,.alic ファイルをここにドロップするか、エクスプローラーで「パスのコピー」の後に右クリックして「パスを貼り付け」を選択してください（ドラッグアンドドロップがブロックされている場合）。,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,ここにドロップできるのは .alic ライセンスファイルのみです。,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,ライセンスファイル,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,警告: このライセンスはメジャーバージョン %LICENSEMAJORS% 用です。インストール済みサービスはメジャーバージョン %SERVICEMAJOR% を報告しています。更新後はサービスを再起動してライセンスを一致させてください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"このライセンスファイルはメジャーバージョン %LICENSEMAJORS% 用ですが、インストール済みサービスはメジャーバージョン %SERVICEMAJOR% を報告しています。
+
+%DETAIL%
+
+このライセンスファイルをインストールしますか？",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,サービスを更新した直後の場合は、ライセンスと一致するようサービスを再起動してください。,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,このライセンスファイルはメジャーバージョン %LICENSEMAJORS% 用ですが、インストール済みサービスはメジャーバージョン %SERVICEMAJOR% を報告しています。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,このライセンスファイルのパスを保存しますか？,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,既定の場所にある既存の license.alic を上書きしますか？,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,貼り付けたライセンスファイルのパスが存在しません。,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,クリップボードに有効なライセンスファイルのパスが含まれていません。,

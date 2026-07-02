@@ -925,6 +925,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,Per complet
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Vuoi ricaricare adesso?,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"La chiave di licenza non è valida per questo prodotto. Potrebbe essere errata, non corrispondere al nome licenza o essere corrotta. Controllare le impostazioni generali.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,Questa chiave di licenza non è valida per questa versione del prodotto (versione/release errata). È necessaria una chiave adatta a questa build. Aggiornare la licenza nelle impostazioni generali.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"Questo file di licenza è per la versione principale %LICENSEMAJORS%, ma il servizio installato riporta la versione principale %SERVICEMAJOR%. Riavviare il servizio dopo un aggiornamento affinché la licenza corrisponda.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Nessuna chiave di licenza configurata (manca il nome licenza o la chiave principale). Immettere o aggiornare la licenza nelle impostazioni generali.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,Nessun file di licenza valido configurato. Utilizzare la scheda File di licenza in Impostazioni generali per specificare o distribuire un file di licenza .alic.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
@@ -1817,6 +1818,15 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTi
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,Trascinare qui un file .alic o fare clic destro e scegliere Incolla percorso dopo Copia percorso in Esplora file (se il trascinamento è bloccato).,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Solo file di licenza .alic possono essere rilasciati qui.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,File di licenza,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,Avviso: Questa licenza è per la versione principale %LICENSEMAJORS%. Il servizio installato riporta la versione principale %SERVICEMAJOR%. Riavviare il servizio dopo un aggiornamento affinché la licenza corrisponda.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"Questo file di licenza è per la versione principale %LICENSEMAJORS%, ma il servizio installato riporta la versione principale %SERVICEMAJOR%.
+
+%DETAIL%
+
+Installare comunque questo file di licenza?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"Se avete appena aggiornato il servizio, riavviatelo affinché la versione installata corrisponda alla licenza.",
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"Questo file di licenza è per la versione principale %LICENSEMAJORS%, ma il servizio installato riporta la versione principale %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,Salvare comunque questo percorso del file di licenza?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Sovrascrivere il license.alic esistente nella posizione predefinita?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,Il percorso del file di licenza incollato non esiste.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,Gli appunti non contengono un percorso di file di licenza valido.,
