@@ -925,6 +925,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,A reload of
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Do you want to reload now?,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"The license key is not valid for this product. It may be mistyped, not match the license name, or be corrupted. Check General settings.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,This license key is not valid for this version of the product (wrong release / major version). You need a key that matches this build. Update your license in General settings.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"This license file is for major version %LICENSEMAJORS%, but the installed service reports major version %SERVICEMAJOR%. Restart the service after an update so licensing matches.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,No license key is configured (license name or primary key is missing). Enter or update your license in General settings.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,No valid license file is configured. Use the License File tab under General settings to specify or deploy a .alic license file.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
@@ -1817,6 +1818,15 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTi
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,"Drop a .alic file here, or right-click and choose Paste path after using Explorer Copy as path (useful when drag-and-drop is blocked).",
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Only .alic license files can be dropped here.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,License File,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,Warning: This license is for major version %LICENSEMAJORS%. The installed service reports major version %SERVICEMAJOR%. Restart the service after an update so licensing matches.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"This license file is for major version %LICENSEMAJORS%, but the installed service reports major version %SERVICEMAJOR%.
+
+%DETAIL%
+
+Install this license file anyway?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"If you just updated the service, restart it so the installed version matches the license.",
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"This license file is for major version %LICENSEMAJORS%, but the installed service reports major version %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,Save this license file path anyway?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Overwrite the existing license.alic at the default location?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,The pasted license file path does not exist.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,The clipboard does not contain a valid license file path.,

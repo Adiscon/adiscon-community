@@ -921,6 +921,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,"Der Konfig
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Wollen Sie jetzt neuladen?,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"Der Lizenzschlüssel ist für dieses Produkt ungültig. Er kann falsch eingegeben sein, nicht zum Lizenznamen passen oder beschädigt sein. Prüfen Sie die Einstellungen unter Allgemein.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,"Dieser Lizenzschlüssel ist für diese Produktversion ungültig (falsche Release- bzw. Hauptversion). Sie benötigen einen Schlüssel, der zu diesem Build passt. Aktualisieren Sie die Lizenz unter Allgemein.",
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"Diese Lizenzdatei gilt für Hauptversion %LICENSEMAJORS%, der installierte Dienst meldet jedoch Hauptversion %SERVICEMAJOR%. Starten Sie den Dienst nach einem Update neu, damit die Lizenzierung übereinstimmt.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Es ist kein Lizenzschlüssel hinterlegt (Lizenzname oder Hauptschlüssel fehlt). Geben Sie Ihre Lizenz unter Allgemein ein oder aktualisieren Sie sie.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,"Es ist keine gültige Lizenzdatei konfiguriert. Verwenden Sie die Registerkarte „Lizenzdatei“ unter Allgemein, um eine .alic-Lizenzdatei anzugeben oder bereitzustellen.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
@@ -1812,6 +1813,15 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTi
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,.alic-Datei hier ablegen oder per Rechtsklick »Pfad einfügen« nach Explorer »Als Pfad kopieren« (wenn Drag-and-Drop blockiert ist).,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Nur .alic-Lizenzdateien können hier abgelegt werden.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Lizenzdatei,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,"Warnung: Diese Lizenz gilt für Hauptversion %LICENSEMAJORS%. Der installierte Dienst meldet Hauptversion %SERVICEMAJOR%. Starten Sie den Dienst nach einem Update neu, damit die Lizenzierung übereinstimmt.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"Diese Lizenzdatei gilt für Hauptversion %LICENSEMAJORS%, der installierte Dienst meldet jedoch Hauptversion %SERVICEMAJOR%.
+
+%DETAIL%
+
+Lizenzdatei trotzdem installieren?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"Wenn Sie den Dienst gerade aktualisiert haben, starten Sie ihn neu, damit die installierte Version zur Lizenz passt.",
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"Diese Lizenzdatei gilt für Hauptversion %LICENSEMAJORS%, der installierte Dienst meldet jedoch Hauptversion %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,Diesen Lizenzdateipfad trotzdem speichern?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Vorhandene license.alic am Standardspeicherort überschreiben?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,Der eingefügte Pfad zur Lizenzdatei existiert nicht.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,Die Zwischenablage enthält keinen gültigen Pfad zur Lizenzdatei.,

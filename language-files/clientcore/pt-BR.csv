@@ -924,6 +924,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,É necessá
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Quer recarregar agora?,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"A chave de licença não é válida para este produto. Ela pode estar incorreta, não corresponder ao nome da licença ou estar corrompida. Verifique as configurações gerais.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,Esta chave de licença não é válida para esta versão do produto (versão/release incorreta). É necessária uma chave compatível com esta compilação. Atualize a licença em Configurações gerais.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"Este arquivo de licença é para a versão principal %LICENSEMAJORS%, mas o serviço instalado informa a versão principal %SERVICEMAJOR%. Reinicie o serviço após uma atualização para que a licença corresponda.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Nenhuma chave de licença configurada (falta o nome da licença ou a chave principal). Informe ou atualize a licença em Configurações gerais.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,Nenhum arquivo de licença válido está configurado. Use a guia Arquivo de licença em Configurações gerais para especificar ou implantar um arquivo de licença .alic.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
@@ -1816,6 +1817,15 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTi
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,Solte um arquivo .alic aqui ou clique com o botão direito e escolha Colar caminho após Copiar como caminho no Explorer (quando arrastar e soltar estiver bloqueado).,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Somente arquivos de licença .alic podem ser soltos aqui.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Arquivo de licença,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,Aviso: Esta licença é para a versão principal %LICENSEMAJORS%. O serviço instalado informa a versão principal %SERVICEMAJOR%. Reinicie o serviço após uma atualização para que a licença corresponda.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"Este arquivo de licença é para a versão principal %LICENSEMAJORS%, mas o serviço instalado informa a versão principal %SERVICEMAJOR%.
+
+%DETAIL%
+
+Instalar este arquivo de licença mesmo assim?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"Se você acabou de atualizar o serviço, reinicie-o para que a versão instalada corresponda à licença.",
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"Este arquivo de licença é para a versão principal %LICENSEMAJORS%, mas o serviço instalado informa a versão principal %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,Salvar este caminho do arquivo de licença mesmo assim?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Substituir o license.alic existente no local padrão?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,O caminho do arquivo de licença colado não existe.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,A área de transferência não contém um caminho de arquivo de licença válido.,

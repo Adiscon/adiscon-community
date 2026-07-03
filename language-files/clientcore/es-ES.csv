@@ -925,6 +925,7 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,Es necesari
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,¿Desea reiniciar ahora?,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"La clave de licencia no es válida para este producto. Puede estar mal escrita, no coincidir con el nombre de licencia o estar corrupta. Revise la configuración general.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,Esta clave de licencia no es válida para esta versión del producto (versión o release incorrecta). Necesita una clave que corresponda a esta compilación. Actualice la licencia en la configuración general.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"Este archivo de licencia es para la versión principal %LICENSEMAJORS%, pero el servicio instalado informa la versión principal %SERVICEMAJOR%. Reinicie el servicio después de una actualización para que la licencia coincida.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,No hay clave de licencia configurada (falta el nombre de licencia o la clave principal). Introduzca o actualice su licencia en la configuración general.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,No hay ningún archivo de licencia válido configurado. Use la pestaña Archivo de licencia en Configuración general para especificar o implementar un archivo de licencia .alic.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
@@ -1811,6 +1812,15 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTi
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,Suelte un archivo .alic aquí o haga clic derecho y elija Pegar ruta tras Copiar como ruta en el Explorador (si el arrastrar y soltar está bloqueado).,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Solo se pueden soltar aquí archivos de licencia .alic.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Archivo de licencia,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,Advertencia: Esta licencia es para la versión principal %LICENSEMAJORS%. El servicio instalado informa la versión principal %SERVICEMAJOR%. Reinicie el servicio después de una actualización para que la licencia coincida.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"Este archivo de licencia es para la versión principal %LICENSEMAJORS%, pero el servicio instalado informa la versión principal %SERVICEMAJOR%.
+
+%DETAIL%
+
+¿Instalar este archivo de licencia de todos modos?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"Si acaba de actualizar el servicio, reinícielo para que la versión instalada coincida con la licencia.",
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"Este archivo de licencia es para la versión principal %LICENSEMAJORS%, pero el servicio instalado informa la versión principal %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,¿Guardar esta ruta del archivo de licencia de todos modos?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,¿Sobrescribir el license.alic existente en la ubicación predeterminada?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,La ruta de archivo de licencia pegada no existe.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,El portapapeles no contiene una ruta de archivo de licencia válida.,
