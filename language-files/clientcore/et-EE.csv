@@ -1817,6 +1817,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultP
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Litsentsifail,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,Lohistage .alic fail siia või tehke paremklõps ja valige Kleebi tee pärast Exploreris Kopeeri tee (kui lohistamine on blokeeritud).,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Siia saab lohistada ainult .alic litsentsifaile.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Expired,Litsentsifail on aegunud.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Litsentsifail,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,"Hoiatus: see litsents kehtib peaversioonile %LICENSEMAJORS%. Installitud teenus teatab peaversiooni %SERVICEMAJOR%. Taaskäivitage teenus pärast uuendust, et litsents vastaks.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"See litsentsifail on peaversioonile %LICENSEMAJORS%, kuid installitud teenus teatab peaversiooni %SERVICEMAJOR%.
@@ -1827,6 +1828,9 @@ Kas installida see litsentsifail ikkagi?",PLACEHOLDER_REQUIRED: preserve %1/%2/e
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"Kui uuendasite teenust just äsja, taaskäivitage see, et installitud versioon vastaks litsentsile.",
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"See litsentsifail on peaversioonile %LICENSEMAJORS%, kuid installitud teenus teatab peaversiooni %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,Kas salvestada see litsentsifaili tee ikkagi?,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValid,See litsentsifail pole veel aktiivne. See muutub kehtivaks %VALIDFROMLOCAL% (UTC: %VALIDFROMUTC%). Proovige pärast seda aega uuesti.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidGeneric,Litsentsifail pole veel kehtiv.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidIssued,Litsents väljastati %ISSUEDATLOCAL%.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Kas kirjutada vaikimisi asukohas olemasolev license.alic üle?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,Kleebitud litsentsifaili teed ei eksisteeri.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,Lõikelaual pole kehtivat litsentsifaili teed.,

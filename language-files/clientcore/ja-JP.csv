@@ -1822,6 +1822,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultP
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,ライセンスファイル,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,.alic ファイルをここにドロップするか、エクスプローラーで「パスのコピー」の後に右クリックして「パスを貼り付け」を選択してください（ドラッグアンドドロップがブロックされている場合）。,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,ここにドロップできるのは .alic ライセンスファイルのみです。,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Expired,ライセンスファイルの有効期限が切れています。,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,ライセンスファイル,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,警告: このライセンスはメジャーバージョン %LICENSEMAJORS% 用です。インストール済みサービスはメジャーバージョン %SERVICEMAJOR% を報告しています。更新後はサービスを再起動してライセンスを一致させてください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"このライセンスファイルはメジャーバージョン %LICENSEMAJORS% 用ですが、インストール済みサービスはメジャーバージョン %SERVICEMAJOR% を報告しています。
@@ -1832,6 +1833,9 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVer
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,サービスを更新した直後の場合は、ライセンスと一致するようサービスを再起動してください。,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,このライセンスファイルはメジャーバージョン %LICENSEMAJORS% 用ですが、インストール済みサービスはメジャーバージョン %SERVICEMAJOR% を報告しています。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,このライセンスファイルのパスを保存しますか？,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValid,このライセンスファイルはまだ有効ではありません。%VALIDFROMLOCAL%（UTC: %VALIDFROMUTC%）から有効になります。その時刻以降に再度お試しください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidGeneric,ライセンスファイルはまだ有効ではありません。,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidIssued,ライセンスの発行日時: %ISSUEDATLOCAL%,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,既定の場所にある既存の license.alic を上書きしますか？,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,貼り付けたライセンスファイルのパスが存在しません。,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,クリップボードに有効なライセンスファイルのパスが含まれていません。,

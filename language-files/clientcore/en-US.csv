@@ -1817,6 +1817,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultP
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,License File,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,"Drop a .alic file here, or right-click and choose Paste path after using Explorer Copy as path (useful when drag-and-drop is blocked).",
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Only .alic license files can be dropped here.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Expired,The license file has expired.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,License File,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,Warning: This license is for major version %LICENSEMAJORS%. The installed service reports major version %SERVICEMAJOR%. Restart the service after an update so licensing matches.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"This license file is for major version %LICENSEMAJORS%, but the installed service reports major version %SERVICEMAJOR%.
@@ -1827,6 +1828,9 @@ Install this license file anyway?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exac
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"If you just updated the service, restart it so the installed version matches the license.",
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"This license file is for major version %LICENSEMAJORS%, but the installed service reports major version %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,Save this license file path anyway?,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValid,This license file is not active yet. It becomes valid on %VALIDFROMLOCAL% (UTC: %VALIDFROMUTC%). Please try again after that time.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidGeneric,The license file is not yet valid.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidIssued,The license was issued on %ISSUEDATLOCAL%.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Overwrite the existing license.alic at the default location?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,The pasted license file path does not exist.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,The clipboard does not contain a valid license file path.,
