@@ -1812,6 +1812,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultP
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Lizenzdatei,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,.alic-Datei hier ablegen oder per Rechtsklick »Pfad einfügen« nach Explorer »Als Pfad kopieren« (wenn Drag-and-Drop blockiert ist).,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Nur .alic-Lizenzdateien können hier abgelegt werden.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Expired,Die Lizenzdatei ist abgelaufen.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Lizenzdatei,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,"Warnung: Diese Lizenz gilt für Hauptversion %LICENSEMAJORS%. Der installierte Dienst meldet Hauptversion %SERVICEMAJOR%. Starten Sie den Dienst nach einem Update neu, damit die Lizenzierung übereinstimmt.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"Diese Lizenzdatei gilt für Hauptversion %LICENSEMAJORS%, der installierte Dienst meldet jedoch Hauptversion %SERVICEMAJOR%.
@@ -1822,6 +1823,9 @@ Lizenzdatei trotzdem installieren?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exa
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"Wenn Sie den Dienst gerade aktualisiert haben, starten Sie ihn neu, damit die installierte Version zur Lizenz passt.",
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"Diese Lizenzdatei gilt für Hauptversion %LICENSEMAJORS%, der installierte Dienst meldet jedoch Hauptversion %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,Diesen Lizenzdateipfad trotzdem speichern?,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValid,Diese Lizenzdatei ist noch nicht aktiv. Sie wird gültig am %VALIDFROMLOCAL% (UTC: %VALIDFROMUTC%). Bitte versuchen Sie es nach diesem Zeitpunkt erneut.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidGeneric,Die Lizenzdatei ist noch nicht gültig.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidIssued,Die Lizenz wurde ausgestellt am %ISSUEDATLOCAL%.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Vorhandene license.alic am Standardspeicherort überschreiben?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,Der eingefügte Pfad zur Lizenzdatei existiert nicht.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,Die Zwischenablage enthält keinen gültigen Pfad zur Lizenzdatei.,

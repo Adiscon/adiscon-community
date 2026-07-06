@@ -1816,6 +1816,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultP
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Arquivo de licença,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropHint,Solte um arquivo .alic aqui ou clique com o botão direito e escolha Colar caminho após Copiar como caminho no Explorer (quando arrastar e soltar estiver bloqueado).,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DropInvalidExtension,Somente arquivos de licença .alic podem ser soltos aqui.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Expired,O arquivo de licença expirou.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2InvalidTitle,Arquivo de licença,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionAcceptedInfo,Aviso: Esta licença é para a versão principal %LICENSEMAJORS%. O serviço instalado informa a versão principal %SERVICEMAJOR%. Reinicie o serviço após uma atualização para que a licença corresponda.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirm,"Este arquivo de licença é para a versão principal %LICENSEMAJORS%, mas o serviço instalado informa a versão principal %SERVICEMAJOR%.
@@ -1826,6 +1827,9 @@ Instalar este arquivo de licença mesmo assim?",PLACEHOLDER_REQUIRED: preserve %
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionConfirmDetail,"Se você acabou de atualizar o serviço, reinicie-o para que a versão instalada corresponda à licença.",
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionMismatchSummary,"Este arquivo de licença é para a versão principal %LICENSEMAJORS%, mas o serviço instalado informa a versão principal %SERVICEMAJOR%.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2MajorVersionSaveConfirm,Salvar este caminho do arquivo de licença mesmo assim?,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValid,Este arquivo de licença ainda não está ativo. Ele será válido em %VALIDFROMLOCAL% (UTC: %VALIDFROMUTC%). Tente novamente após esse horário.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidGeneric,O arquivo de licença ainda não é válido.,
+ClientCore/xml.languagefiles/General.License,License General,szLicenseV2NotYetValidIssued,A licença foi emitida em %ISSUEDATLOCAL%.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2OverwriteConfirm,Substituir o license.alic existente no local padrão?,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteFileNotFound,O caminho do arquivo de licença colado não existe.,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2PasteInvalidPath,A área de transferência não contém um caminho de arquivo de licença válido.,
