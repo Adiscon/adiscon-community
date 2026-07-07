@@ -1802,10 +1802,10 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Clave5
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Verificar licencia,
 ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Licencia,
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Claves de licencia heredadas,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Para servicios instalados con versión principal anterior a 2026, use el nombre de registro y las claves de licencia siguientes. Para la versión 2026 y posteriores, use la pestaña Archivo de licencia.",
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Para servicios instalados más antiguos que usan nombre de registro y claves de licencia, introdúzcalos a continuación. Para la versión 26 y posteriores, use la pestaña Archivo de licencia.",
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Licencia heredada,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Información de licencia,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Para servicios instalados con versión principal 2026 o posterior, use un archivo de licencia (.alic). La ubicación predeterminada es %DEFAULTLICENSEV2PATH%. Para versiones de servicio anteriores, use la pestaña Licencia heredada.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Para servicios instalados con versión 26 y posteriores, use un archivo de licencia (.alic). La ubicación predeterminada es %DEFAULTLICENSEV2PATH%. Para versiones de servicio anteriores, use la pestaña Licencia heredada.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Archivo de licencia,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,Ruta predeterminada en tiempo de ejecución: %DEFAULTLICENSEV2PATH%. Deje este campo vacío para usar esa ubicación.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Archivo de licencia,
