@@ -151,7 +151,6 @@ ClientCore/frmConfig,Config Form,nTLSUseConfigurationCommands,OpenSSL 設定コ�
 ClientCore/frmConfig,Config Form,nTimeOutLimit,タイムアウトの設定,
 ClientCore/frmConfig,Config Form,nUseDiscQueue,サーバーに接続できない時にディスクキューを使用する,
 ClientCore/frmConfig,Config Form,szActionCacheOptions,アクション キュー オプション,JTC:Action Queue Options
-ClientCore/frmConfig,Config Form,szButtonCopyLicenseClipboard,クリップボードから貼り付け,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusFailed,ライセンスが無効のようです。ユーザー登録名が正しく入力されているかどうかご確認ください。,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusSuccess,有効なライセンスです。,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusTitle,ライセンスの確認,
@@ -919,11 +918,8 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,言語が変更�
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,言語を変更しますか？,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,変更するにはクライアントをリロードする必要があります,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,リロードしますか？,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,ライセンスキーはこの製品では無効です。誤入力、ライセンス名との不一致、またはデータ破損の可能性があります。一般設定を確認してください。,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,このライセンスキーはこの製品バージョンでは無効です（リリース／メジャーバージョンが一致しません）。このビルドに対応したキーが必要です。一般設定でライセンスを更新してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,このライセンスファイルはメジャーバージョン %LICENSEMAJORS% 用ですが、インストール済みサービスはメジャーバージョン %SERVICEMAJOR% を報告しています。更新後はサービスを再起動してライセンスを一致させてください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,ライセンスキーが設定されていません（ライセンス名または主キーがありません）。一般設定でライセンスを入力または更新してください。,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,有効なライセンスファイルが設定されていません。一般設定の「ライセンスファイル」タブで .alic ライセンスファイルを指定または配置してください。,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,有効なライセンス ファイルが設定されていません。[全般] の [ライセンス] で .alic ライセンス ファイルを指定または配置してください。,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,有効なライセンスファイルが設定されていません,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,ライセンスファイルは有効,
@@ -1805,18 +1801,9 @@ ClientCore/xml.languagefiles/General.General,General General,sz_runhigh,高,
 ClientCore/xml.languagefiles/General.General,General General,sz_runidle,アイドルクラス,
 ClientCore/xml.languagefiles/General.General,General General,sz_runlow,低,
 ClientCore/xml.languagefiles/General.General,General General,sz_runnormal,通常,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey1,Key1,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey2,Key2,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Key3,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Key4,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,ライセンスを確認,
-ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,ライセンス,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,従来のライセンスキー,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,登録名とライセンスキーを使用する古いバージョンのインストール済みサービスでは、下に入力してください。バージョン 26 以降では「ライセンスファイル」タブを使用してください。,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,従来のライセンス,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,ライセンス情報,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,バージョン 26 以降のインストール済みサービスでは、ライセンスファイル (.alic) を使用します。既定の場所は %DEFAULTLICENSEV2PATH% です。それより古いサービスバージョンでは「従来のライセンス」タブを使用してください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,ライセンス ファイル (.alic) を %DEFAULTLICENSEV2PATH% に配置するか、下で参照またはドロップしてください。パスを空のままにすると既定の場所が使われます。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,ライセンスファイル,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,既定のランタイムパス: %DEFAULTLICENSEV2PATH%。このフィールドを空にするとその場所を使用します。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,ライセンスファイル,
@@ -1846,11 +1833,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInva
 %1
 
 このパスを保存しますか?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,ライセンスファイル,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,ライセンス検証,
-ClientCore/xml.languagefiles/General.License,License General,szLicensee,ユーザー登録名,
-ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,詳細情報は以下...,
-ClientCore/xml.languagefiles/General.License,License General,szRegNumber,ユーザー登録番号,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,nEnablePermittedSenders,送信許可リストを有効にする,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,permittedsenders,次のIPアドレスからのSyslogメッセージのみ受信,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,szEditionInformation,"注意：送信許可リストを有効にすると、サービスに関連するすべてのネットワーク上で、設定されたデバイスからのメッセージ受信のみ受け付けます。

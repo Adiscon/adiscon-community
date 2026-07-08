@@ -151,7 +151,6 @@ ClientCore/frmConfig,Config Form,nTLSUseConfigurationCommands,Use OpenSSL config
 ClientCore/frmConfig,Config Form,nTimeOutLimit,Timeout Limit,
 ClientCore/frmConfig,Config Form,nUseDiscQueue,Use Diskqueue if connection to Syslog Server fails,
 ClientCore/frmConfig,Config Form,szActionCacheOptions,Action Queue Options,
-ClientCore/frmConfig,Config Form,szButtonCopyLicenseClipboard,Import from Clipboard,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusFailed,Your license appears to be INVALID. Please check the spelling (case sensitive) and for accidental whitespaces.,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusSuccess,Your license appears to be VALID.,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusTitle,License Check,
@@ -923,11 +922,8 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,Language Setting
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,You have changed the language settings.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,A reload of the Client application is needed in order to complete the changes.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Do you want to reload now?,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"The license key is not valid for this product. It may be mistyped, not match the license name, or be corrupted. Check General settings.",
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,This license key is not valid for this version of the product (wrong release / major version). You need a key that matches this build. Update your license in General settings.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"This license file is for major version %LICENSEMAJORS%, but the installed service reports major version %SERVICEMAJOR%. Restart the service after an update so licensing matches.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,No license key is configured (license name or primary key is missing). Enter or update your license in General settings.,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,No valid license file is configured. Use the License File tab under General settings to specify or deploy a .alic license file.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,No valid license file is configured. Use License under General settings to specify or deploy a .alic license file.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,No valid license file configured,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,License file valid,
@@ -1800,18 +1796,9 @@ ClientCore/xml.languagefiles/General.General,General General,sz_runhigh,High,
 ClientCore/xml.languagefiles/General.General,General General,sz_runidle,Run with idle priority,
 ClientCore/xml.languagefiles/General.General,General General,sz_runlow,Low ,
 ClientCore/xml.languagefiles/General.General,General General,sz_runnormal,Normal,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey1,Key1,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey2,Key2,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Key3,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Key4,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Verify License,
-ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,License,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Legacy license keys,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"For older installed services that use registration name and license keys, enter them below. For version 26 and later, use the License File tab.",
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Legacy License,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,License Information,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"For installed services with version 26 and later, use a license file (.alic). The default location is %DEFAULTLICENSEV2PATH%. For older service versions, use the Legacy License tab.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Place your license file (.alic) at %DEFAULTLICENSEV2PATH%, or browse/drop a file below. Leave the path empty to use the default location.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,License File,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,Default runtime path: %DEFAULTLICENSEV2PATH%. Leave this field empty to use that location.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,License File,
@@ -1841,11 +1828,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInva
 %1
 
 Save this path anyway?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,License File,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,License verification,
-ClientCore/xml.languagefiles/General.License,License General,szLicensee,Registration Name,
-ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,More information can be found at our Homepage,
-ClientCore/xml.languagefiles/General.License,License General,szRegNumber,Registration Number,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,nEnablePermittedSenders,Enabled Permitted Senders List. ,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,permittedsenders,Only receive syslog messages from the following IP Addresses. ,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,szEditionInformation,"Please note that if you activate the Permitted Senders List, all network related services will be limited to receive messages from the configured devices only. 

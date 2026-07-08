@@ -151,7 +151,6 @@ ClientCore/frmConfig,Config Form,nTLSUseConfigurationCommands,Kasutage OpenSSL-i
 ClientCore/frmConfig,Config Form,nTimeOutLimit,Timeout Limit,
 ClientCore/frmConfig,Config Form,nUseDiscQueue,"Kasutage Diskqueue, kui ühendus serveriga Syslog ebaõnnestub",
 ClientCore/frmConfig,Config Form,szActionCacheOptions,Toimingu järjekorra valikud,
-ClientCore/frmConfig,Config Form,szButtonCopyLicenseClipboard,Import lõikelaualt,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusFailed,Teie litsents näib olevat KEHTNE. Kontrollige õigekirja (tõstutundlik) ja juhuslike tühikute olemasolu.,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusSuccess,Teie litsents näib olevat KEHTIV.,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusTitle,Litsentsi kontroll,
@@ -923,11 +922,8 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,Keeleseadeid muu
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,Olete muutnud keeleseadeid.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,Muudatuste lõpuleviimiseks on vaja kliendirakendus uuesti laadida.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Kas soovite nüüd uuesti laadida?,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"Litsentsivõti ei kehti selle toote jaoks. See võib olla vale, mitte sobida litsentsi nimega või olla vigane. Kontrollige üldseadeid.",
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,See litsentsivõti ei kehti selle tooteversiooni jaoks (vale väljalaskenumber / peaversioon). Vajate sellele kompileeringule vastavat võtit. Uuendage litsents üldseadetes.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"See litsentsifail on peaversioonile %LICENSEMAJORS%, kuid installitud teenus teatab peaversiooni %SERVICEMAJOR%. Taaskäivitage teenus pärast uuendust, et litsents vastaks.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Litsentsivõtit pole seadistatud (puudub litsentsi nimi või põhivõti). Sisestage või uuendage litsents üldseadetes.,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,Kehtivat litsentsifaili pole seadistatud. Kasutage .alic litsentsifaili määramiseks või juurutamiseks vahekaarti Litsentsifail üldseadetes.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,"Kehtivat litsentsifaili pole seadistatud. Kasutage üldseadetes jaotist Litsents, et määrata või paigutada .alic-fail.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Väljaanne (Versioon ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Kehtivat litsentsifaili pole seadistatud,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Litsentsifail kehtib,
@@ -1800,18 +1796,9 @@ ClientCore/xml.languagefiles/General.General,General General,sz_runhigh,Kõrge,
 ClientCore/xml.languagefiles/General.General,General General,sz_runidle,Käivitage tühikäigu prioriteediga,
 ClientCore/xml.languagefiles/General.General,General General,sz_runlow,Madal,
 ClientCore/xml.languagefiles/General.General,General General,sz_runnormal,Tavaline,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey1,Võti1,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey2,Võti2,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Võti 3,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Võti 4,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Võti 5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Kinnitage litsents,
-ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Litsents,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Pärandlitsentsi võtmed,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Vanemate installitud teenuste puhul, mis kasutavad registreerimisnime ja litsentsivõtmeid, sisestage need allpool. Versiooni 26 ja uuemate puhul kasutage vahekaarti Litsentsifail.",
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Pärandlitsents,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Litsentsi teave,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,Installitud teenuste puhul versiooniga 26 või uuem kasutage litsentsifaili (.alic). Vaikimisi asukoht on %DEFAULTLICENSEV2PATH%. Vanemate teenuseversioonide puhul kasutage vahekaarti Pärandlitsents.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,Paigutage oma litsentsifail (.alic) asukohta %DEFAULTLICENSEV2PATH% või sirvige/pukseerige fail allpool. Jätke tee tühjaks vaikeasukoha kasutamiseks.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Litsentsifail,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,"Vaikimisi käivitusteekond: %DEFAULTLICENSEV2PATH%. Jätke väli tühjaks, et kasutada seda asukohta.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Litsentsifail,
@@ -1841,11 +1828,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInva
 %1
 
 Kas salvestada see tee ikkagi?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,Litsentsifail,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,Litsentsi kontroll,
-ClientCore/xml.languagefiles/General.License,License General,szLicensee,Registreerimisnimi,
-ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,Lisateavet leiate meie kodulehelt,
-ClientCore/xml.languagefiles/General.License,License General,szRegNumber,Registreerimisnumber,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,nEnablePermittedSenders,Lubatud saatjate loend.,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,permittedsenders,Saate syslogi sõnumeid ainult järgmistelt IP-aadressidelt.,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,szEditionInformation,"Pange tähele, et kui aktiveerite lubatud saatjate loendi, on kõik võrguga seotud teenused piiratud sõnumite vastuvõtmisega ainult konfigureeritud seadmetelt. 
