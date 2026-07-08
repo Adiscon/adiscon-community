@@ -151,7 +151,6 @@ ClientCore/frmConfig,Config Form,nTLSUseConfigurationCommands,Utiliser les comma
 ClientCore/frmConfig,Config Form,nTimeOutLimit,Limite de délai d'attente,
 ClientCore/frmConfig,Config Form,nUseDiscQueue,Utilisez Diskqueue si la connexion au serveur Syslog échoue,
 ClientCore/frmConfig,Config Form,szActionCacheOptions,Options de la file d'attente d'actions,
-ClientCore/frmConfig,Config Form,szButtonCopyLicenseClipboard,Importer depuis le Presse-papiers,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusFailed,Votre licence semble INVALIDE. Veuillez vérifier l'orthographe (sensible à la casse) et les espaces accidentels.,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusSuccess,Votre licence semble être VALIDE.,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusTitle,Vérification de la licence,
@@ -923,11 +922,8 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,Paramètres de l
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,Vous avez modifié les paramètres de langue.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,Un rechargement de l'application Client est nécessaire pour finaliser les modifications.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Voulez-vous recharger maintenant ?,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"La clé de licence n'est pas valide pour ce produit. Elle peut être incorrecte, ne pas correspondre au nom de licence ou être corrompue. Vérifiez les paramètres généraux.",
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,Cette clé de licence n'est pas valide pour cette version du produit (mauvaise version / release). Il faut une clé adaptée à cette build. Mettez à jour votre licence dans les paramètres généraux.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"Ce fichier de licence est pour la version majeure %LICENSEMAJORS%, mais le service installé signale la version majeure %SERVICEMAJOR%. Redémarrez le service après une mise à jour pour que la licence corresponde.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Aucune clé de licence n'est configurée (nom de licence ou clé principale manquant). Saisissez ou mettez à jour votre licence dans les paramètres généraux.,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,Aucun fichier de licence valide n'est configuré. Utilisez l'onglet Fichier de licence dans Paramètres généraux pour spécifier ou déployer un fichier de licence .alic.,
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,Aucun fichier de licence valide n'est configuré. Utilisez Licence dans les paramètres généraux pour spécifier ou déployer un fichier .alic.,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Aucun fichier de licence valide configuré,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Fichier de licence valide,
@@ -1800,18 +1796,9 @@ ClientCore/xml.languagefiles/General.General,General General,sz_runhigh,Haut,
 ClientCore/xml.languagefiles/General.General,General General,sz_runidle,Exécuter avec une priorité inactive,
 ClientCore/xml.languagefiles/General.General,General General,sz_runlow,Faible,
 ClientCore/xml.languagefiles/General.General,General General,sz_runnormal,Normale,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey1,Clé1,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey2,Clé2,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Clé3,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Clé4,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Clé5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Vérifier la licence,
-ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Licence,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Clés de licence héritées,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Pour les services installés plus anciens qui utilisent un nom d'enregistrement et des clés de licence, saisissez-les ci-dessous. Pour la version 26 et ultérieure, utilisez l'onglet Fichier de licence.",
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Licence héritée,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Informations sur la licence,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Pour les services installés en version 26 ou ultérieure, utilisez un fichier de licence (.alic). L'emplacement par défaut est %DEFAULTLICENSEV2PATH%. Pour les versions de service plus anciennes, utilisez l'onglet Licence héritée.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Placez votre fichier de licence (.alic) dans %DEFAULTLICENSEV2PATH%, ou parcourez/déposez un fichier ci-dessous. Laissez le chemin vide pour utiliser l'emplacement par défaut.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Fichier de licence,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,Chemin d'exécution par défaut : %DEFAULTLICENSEV2PATH%. Laissez ce champ vide pour utiliser cet emplacement.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Fichier de licence,
@@ -1841,11 +1828,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInva
 %1
 
 Enregistrer ce chemin quand même ?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,Fichier de licence,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,Vérification de licence,
-ClientCore/xml.languagefiles/General.License,License General,szLicensee,Nom d'enregistrement,
-ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,Plus d'informations peuvent être trouvées sur notre page d'accueil,
-ClientCore/xml.languagefiles/General.License,License General,szRegNumber,Numéro d'enregistrement,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,nEnablePermittedSenders,Activation de la liste des expéditeurs autorisés.,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,permittedsenders,Recevez uniquement les messages Syslog des adresses IP suivantes.,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,szEditionInformation,"Veuillez noter que si vous activez la liste des expéditeurs autorisés, tous les services liés au réseau seront limités à la réception de messages provenant uniquement des appareils configurés. 

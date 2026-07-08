@@ -151,7 +151,6 @@ ClientCore/frmConfig,Config Form,nTLSUseConfigurationCommands,Aktiviere OpenSSL 
 ClientCore/frmConfig,Config Form,nTimeOutLimit,Timeout Limit,
 ClientCore/frmConfig,Config Form,nUseDiscQueue,Nutze Diskqueue falls Verbindung zum Syslog Server fehlschlägt,
 ClientCore/frmConfig,Config Form,szActionCacheOptions,Action Queue bezogene Optionen,
-ClientCore/frmConfig,Config Form,szButtonCopyLicenseClipboard,Lizenzkey aus Zwischenablage kopieren,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusFailed,Ihre Lizenz scheint ungültig zu sein. Bitte überprüfen Sie die Schreibweise (Gross-/Kleinschreibung) und auf versehentliche Leerzeichen.,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusSuccess,Ihre Lizenz scheint GÜLTIG zu sein.,
 ClientCore/frmConfig,Config Form,szCheckRegisterStatusTitle,Lizenzprüfung,
@@ -919,11 +918,8 @@ ClientCore/frmMainTemplate,Main Template Form,szLanguageChanged,Spracheinstellun
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull1,Sie haben die Spracheinstellungen verändert.,
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull2,"Der Konfigurationsclient muss neu geladen werden, damit die Änderung durchgeführt werden kann.",
 ClientCore/frmMainTemplate,Main Template Form,szLanguageChangedFull3,Wollen Sie jetzt neuladen?,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyInvalid,"Der Lizenzschlüssel ist für dieses Produkt ungültig. Er kann falsch eingegeben sein, nicht zum Lizenznamen passen oder beschädigt sein. Prüfen Sie die Einstellungen unter Allgemein.",
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerKeyWrongVersion,"Dieser Lizenzschlüssel ist für diese Produktversion ungültig (falsche Release- bzw. Hauptversion). Sie benötigen einen Schlüssel, der zu diesem Build passt. Aktualisieren Sie die Lizenz unter Allgemein.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerLicenseV2MajorVersionMismatch,"Diese Lizenzdatei gilt für Hauptversion %LICENSEMAJORS%, der installierte Dienst meldet jedoch Hauptversion %SERVICEMAJOR%. Starten Sie den Dienst nach einem Update neu, damit die Lizenzierung übereinstimmt.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseData,Es ist kein Lizenzschlüssel hinterlegt (Lizenzname oder Hauptschlüssel fehlt). Geben Sie Ihre Lizenz unter Allgemein ein oder aktualisieren Sie sie.,
-ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,"Es ist keine gültige Lizenzdatei konfiguriert. Verwenden Sie die Registerkarte „Lizenzdatei“ unter Allgemein, um eine .alic-Lizenzdatei anzugeben oder bereitzustellen.",
+ClientCore/frmMainTemplate,Main Template Form,szLicenseBannerNoLicenseFile,"Es ist keine gültige Lizenzdatei konfiguriert. Verwenden Sie unter Allgemein die Lizenz, um eine .alic-Datei anzugeben oder bereitzustellen.",
 ClientCore/frmMainTemplate,Main Template Form,szLicenseEditionVersionSuffix, Edition (Version ,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusMissing,Keine gültige Lizenzdatei konfiguriert,
 ClientCore/frmMainTemplate,Main Template Form,szLicenseFileStatusValid,Lizenzdatei gültig,
@@ -1795,18 +1791,9 @@ ClientCore/xml.languagefiles/General.General,General General,sz_runhigh,Hoch,
 ClientCore/xml.languagefiles/General.General,General General,sz_runidle,Idle Priorität,
 ClientCore/xml.languagefiles/General.General,General General,sz_runlow,Niedrig,
 ClientCore/xml.languagefiles/General.General,General General,sz_runnormal,Normal,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey1,Key1,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey2,Key2,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey3,Key3,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey4,Key4,
-ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Lizenz verifizieren,
-ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Lizenz,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Legacy-Lizenzschlüssel,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Für ältere installierte Dienste, die Registrierungsname und Lizenzschlüssel verwenden, tragen Sie diese unten ein. Für Version 26 und höher verwenden Sie die Registerkarte Lizenzdatei.",
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Legacy-Lizenz,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Lizenz Informationen,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,Für installierte Dienste mit Version 26 und höher verwenden Sie eine Lizenzdatei (.alic). Der Standardspeicherort ist %DEFAULTLICENSEV2PATH%. Für ältere Dienstversionen verwenden Sie die Registerkarte Legacy-Lizenz.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Legen Sie Ihre Lizenzdatei (.alic) unter %DEFAULTLICENSEV2PATH% ab, oder wählen Sie eine Datei aus bzw. ziehen Sie sie hierher. Lassen Sie das Feld leer, um den Standardpfad zu verwenden.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Lizenzdatei,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,"Standardpfad zur Laufzeit: %DEFAULTLICENSEV2PATH%. Feld leer lassen, um diesen Speicherort zu verwenden.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Lizenzdatei,
@@ -1836,11 +1823,7 @@ ClientCore/xml.languagefiles/General.License,License General,szLicenseV2SaveInva
 %1
 
 Diesen Pfad trotzdem speichern?",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
-ClientCore/xml.languagefiles/General.License,License General,szLicenseV2Tab,Lizenzdatei,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2VerifyTitle,Lizenzprüfung,
-ClientCore/xml.languagefiles/General.License,License General,szLicensee,Registrierungs-Name,
-ClientCore/xml.languagefiles/General.License,License General,szMoreInformation,Mehr Informationen unter auf unserer Homepage:,
-ClientCore/xml.languagefiles/General.License,License General,szRegNumber,Lizenzschlüssel,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,nEnablePermittedSenders,Aktiviere erlaubte Senderliste.,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,permittedsenders,Empfange Nachrichten nur von folgenden IP-Adressen,
 ClientCore/xml.languagefiles/General.Permitted,Permitted General,szEditionInformation,"Bitte beachten Sie, dass wenn die Senderliste aktiviert wird alle Netzwerk Dienste auf die konfigurierten Adressen beschränkt werden. 
