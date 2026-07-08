@@ -1808,10 +1808,10 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Võti 
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Kinnitage litsents,
 ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Litsents,
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Pärandlitsentsi võtmed,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Installitud teenuste puhul, mille peamine versioon on enne 2026, kasutage allpool registreerimisnime ja litsentsivõtmeid. Versiooni 2026 ja uuemate puhul kasutage vahekaarti Litsentsifail.",
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Vanemate installitud teenuste puhul, mis kasutavad registreerimisnime ja litsentsivõtmeid, sisestage need allpool. Versiooni 26 ja uuemate puhul kasutage vahekaarti Litsentsifail.",
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Pärandlitsents,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Litsentsi teave,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Installitud teenuste puhul, mille peamine versioon on 2026 või uuem, kasutage litsentsifaili (.alic). Vaikimisi asukoht on %DEFAULTLICENSEV2PATH%. Vanemate teenuseversioonide puhul kasutage vahekaarti Pärandlitsents.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,Installitud teenuste puhul versiooniga 26 või uuem kasutage litsentsifaili (.alic). Vaikimisi asukoht on %DEFAULTLICENSEV2PATH%. Vanemate teenuseversioonide puhul kasutage vahekaarti Pärandlitsents.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Litsentsifail,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,"Vaikimisi käivitusteekond: %DEFAULTLICENSEV2PATH%. Jätke väli tühjaks, et kasutada seda asukohta.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Litsentsifail,

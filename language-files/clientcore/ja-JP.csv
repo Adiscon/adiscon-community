@@ -1813,10 +1813,10 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,ライセンスを確認,
 ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,ライセンス,
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,従来のライセンスキー,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,メジャーバージョン 2026 より前のインストール済みサービスでは、下の登録名とライセンスキーを使用してください。2026 以降のバージョンでは「ライセンスファイル」タブを使用してください。,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,登録名とライセンスキーを使用する古いバージョンのインストール済みサービスでは、下に入力してください。バージョン 26 以降では「ライセンスファイル」タブを使用してください。,
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,従来のライセンス,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,ライセンス情報,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,メジャーバージョン 2026 以降のインストール済みサービスでは、ライセンスファイル (.alic) を使用します。既定の場所は %DEFAULTLICENSEV2PATH% です。それより古いサービスバージョンでは「従来のライセンス」タブを使用してください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,バージョン 26 以降のインストール済みサービスでは、ライセンスファイル (.alic) を使用します。既定の場所は %DEFAULTLICENSEV2PATH% です。それより古いサービスバージョンでは「従来のライセンス」タブを使用してください。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,ライセンスファイル,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,既定のランタイムパス: %DEFAULTLICENSEV2PATH%。このフィールドを空にするとその場所を使用します。,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,ライセンスファイル,

@@ -1807,10 +1807,10 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Chave5
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Verifique a licença,
 ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Licença,
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Chaves de licença legadas,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Para serviços instalados com versão principal anterior a 2026, use o nome de registro e as chaves de licença abaixo. Para a versão 2026 e posterior, use a guia Arquivo de licença.",
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Para serviços instalados mais antigos que usam nome de registro e chaves de licença, informe-os abaixo. Para a versão 26 e posterior, use a guia Arquivo de licença.",
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Licença legada,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Informações sobre licença,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Para serviços instalados com versão principal 2026 ou posterior, use um arquivo de licença (.alic). O local padrão é %DEFAULTLICENSEV2PATH%. Para versões de serviço mais antigas, use a guia Licença legada.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Para serviços instalados com versão 26 ou posterior, use um arquivo de licença (.alic). O local padrão é %DEFAULTLICENSEV2PATH%. Para versões de serviço mais antigas, use a guia Licença legada.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Arquivo de licença,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,Caminho padrão em runtime: %DEFAULTLICENSEV2PATH%. Deixe vazio para usar esse local.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Arquivo de licença,

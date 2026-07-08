@@ -1808,10 +1808,10 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Verify License,
 ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,License,
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Legacy license keys,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"For installed services with major version before 2026, use the registration name and license keys below. For version 2026 and later, use the License File tab.",
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"For older installed services that use registration name and license keys, enter them below. For version 26 and later, use the License File tab.",
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Legacy License,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,License Information,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"For installed services with major version 2026 and later, use a license file (.alic). The default location is %DEFAULTLICENSEV2PATH%. For older service versions, use the Legacy License tab.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"For installed services with version 26 and later, use a license file (.alic). The default location is %DEFAULTLICENSEV2PATH%. For older service versions, use the Legacy License tab.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,License File,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,Default runtime path: %DEFAULTLICENSEV2PATH%. Leave this field empty to use that location.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,License File,

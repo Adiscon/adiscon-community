@@ -1808,10 +1808,10 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Chiave
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Verifica licenza,
 ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Licenza,
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Chiavi di licenza legacy,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Per i servizi installati con versione principale precedente al 2026, usare il nome di registrazione e le chiavi di licenza sotto. Per la versione 2026 e successive, usare la scheda File di licenza.",
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Per i servizi installati più vecchi che usano nome di registrazione e chiavi di licenza, inserirli sotto. Per la versione 26 e successive, usare la scheda File di licenza.",
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Licenza legacy,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Informazioni sulla licenza,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Per i servizi installati con versione principale 2026 o successiva, usare un file di licenza (.alic). La posizione predefinita è %DEFAULTLICENSEV2PATH%. Per versioni di servizio precedenti, usare la scheda Licenza legacy.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,"Per i servizi installati con versione 26 o successiva, usare un file di licenza (.alic). La posizione predefinita è %DEFAULTLICENSEV2PATH%. Per versioni di servizio precedenti, usare la scheda Licenza legacy.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,File di licenza,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,Percorso predefinito in runtime: %DEFAULTLICENSEV2PATH%. Lasciare vuoto per usare tale percorso.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,File di licenza,

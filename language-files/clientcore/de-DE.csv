@@ -1803,10 +1803,10 @@ ClientCore/xml.languagefiles/General.License,License General,nLicenseKey5,Key5,
 ClientCore/xml.languagefiles/General.License,License General,szButtonVerifyLicense,Lizenz verifizieren,
 ClientCore/xml.languagefiles/General.License,License General,szDetailProperties,Lizenz,
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicense,Legacy-Lizenzschlüssel,
-ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,Für installierte Dienste mit Hauptversion vor 2026 verwenden Sie unten den Registrierungsnamen und die Lizenzschlüssel. Für Version 2026 und höher verwenden Sie die Registerkarte Lizenzdatei.,
+ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseIntro,"Für ältere installierte Dienste, die Registrierungsname und Lizenzschlüssel verwenden, tragen Sie diese unten ein. Für Version 26 und höher verwenden Sie die Registerkarte Lizenzdatei.",
 ClientCore/xml.languagefiles/General.License,License General,szLegacyLicenseTab,Legacy-Lizenz,
 ClientCore/xml.languagefiles/General.License,License General,szLicense,Lizenz Informationen,
-ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,Für installierte Dienste mit Hauptversion 2026 und höher verwenden Sie eine Lizenzdatei (.alic). Der Standardspeicherort ist %DEFAULTLICENSEV2PATH%. Für ältere Dienstversionen verwenden Sie die Registerkarte Legacy-Lizenz.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
+ClientCore/xml.languagefiles/General.License,License General,szLicenseFileIntro,Für installierte Dienste mit Version 26 und höher verwenden Sie eine Lizenzdatei (.alic). Der Standardspeicherort ist %DEFAULTLICENSEV2PATH%. Für ältere Dienstversionen verwenden Sie die Registerkarte Legacy-Lizenz.,PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2,Lizenzdatei,
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DefaultPath,"Standardpfad zur Laufzeit: %DEFAULTLICENSEV2PATH%. Feld leer lassen, um diesen Speicherort zu verwenden.",PLACEHOLDER_REQUIRED: preserve %1/%2/etc exactly
 ClientCore/xml.languagefiles/General.License,License General,szLicenseV2DeployTitle,Lizenzdatei,
