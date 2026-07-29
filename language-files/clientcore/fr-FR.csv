@@ -1065,6 +1065,14 @@ ClientCore/frmMibBrowser,Mib Browser Form,lblTitle.Text,Navigateur MIB (OID),
 ClientCore/frmMibBrowser,Mib Browser Form,lblvarType.Text,Type de variable :,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentError,Erreur de chargement du composant,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentErrorReloadMibs,"Une erreur de composant s'est produite lors du chargement des Mibs SNMP. Le client de configuration a tenté de résoudre le problème, mais un redémarrage du client de configuration est nécessaire. Veuillez redémarrer le client et réessayer.",
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,$this.Text,Paramètres généraux non pris en charge,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnCancel.Text,Annuler,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnConvertScalars.Text,Convertir les paramètres scalaires,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnExportWithout.Text,Exporter sans paramètres,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,lblDescription.Text,"Les paramètres généraux suivants ne peuvent pas être conservés lors de l'enregistrement au format {0}:
+{1}
+
+Annuler laisse la configuration inchangée. La conversion des paramètres scalaires n'est disponible que si la destination peut représenter tous les paramètres conservés.",
 ClientCore/frmToolsConnect,Tools Connect Form,$this.Text,Connect,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdBrowse.Text,Browse,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdCancel.Text,Cancel,

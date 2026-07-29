@@ -1064,6 +1064,14 @@ ClientCore/frmMibBrowser,Mib Browser Form,lblTitle.Text,Navegador MIB (OID),
 ClientCore/frmMibBrowser,Mib Browser Form,lblvarType.Text,Tipo de variável:,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentError,Erro ao carregar componente,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentErrorReloadMibs,"Ocorreu um erro de componente ao carregar Mibs SNMP. O cliente de configuração tentou corrigir o problema, mas é necessário reiniciar o cliente de configuração. Por favor reinicie o Cliente e tente novamente.",
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,$this.Text,Configurações gerais sem suporte,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnCancel.Text,Cancelar,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnConvertScalars.Text,Converter configurações escalares,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnExportWithout.Text,Exportar sem configurações,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,lblDescription.Text,"As seguintes configurações gerais não podem ser preservadas ao salvar em {0}:
+{1}
+
+Cancelar mantém a configuração inalterada. A conversão de configurações escalares só está disponível quando o destino pode representar todas as configurações preservadas.",
 ClientCore/frmToolsConnect,Tools Connect Form,$this.Text,Connect,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdBrowse.Text,Navegar,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdCancel.Text,Cancel,

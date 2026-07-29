@@ -1061,6 +1061,14 @@ ClientCore/frmMibBrowser,Mib Browser Form,lblTitle.Text,MIB Browser (OID),
 ClientCore/frmMibBrowser,Mib Browser Form,lblvarType.Text,Variablentyp:,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentError,Fehler beim Laden einer Komponente,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentErrorReloadMibs,Eine Komponente zum Laden der SNMP Mibs konnte nicht initialisiert werden. Der Konfigurations Client hat versucht das Problem zu beheben. Ein Neustart des Clients wird benötigt. Bitte starten Sie den Client neu und versuchen Sie es erneut.,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,$this.Text,Nicht unterstützte allgemeine Einstellungen,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnCancel.Text,Abbrechen,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnConvertScalars.Text,Skalare Einstellungen konvertieren,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnExportWithout.Text,Ohne Einstellungen exportieren,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,lblDescription.Text,"Die folgenden allgemeinen Einstellungen können beim Speichern nach {0} nicht beibehalten werden:
+{1}
+
+Abbrechen lässt die Konfiguration unverändert. Die Konvertierung skalarer Einstellungen ist nur möglich, wenn das Ziel jede beibehaltene Einstellung darstellen kann.",
 ClientCore/frmToolsConnect,Tools Connect Form,$this.Text,Connect,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdBrowse.Text,Browse,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdCancel.Text,Cancel,
