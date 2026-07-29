@@ -1065,6 +1065,14 @@ ClientCore/frmMibBrowser,Mib Browser Form,lblTitle.Text,MIB Browser (OID),
 ClientCore/frmMibBrowser,Mib Browser Form,lblvarType.Text,Variable Type:,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentError,Error loading component,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentErrorReloadMibs,"A component error occurred while loading SNMP Mibs. The configuration client tried to fix the problem, but a configuration client restart is needed. Please restart the Client and try again. ",
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,$this.Text,Unsupported General settings,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnCancel.Text,Cancel,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnConvertScalars.Text,Convert scalar settings,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnExportWithout.Text,Export without settings,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,lblDescription.Text,"The following General settings cannot be preserved when saving to {0}:
+{1}
+
+Cancel keeps the configuration unchanged. Scalar conversion is available only when the destination can represent every retained setting.",
 ClientCore/frmToolsConnect,Tools Connect Form,$this.Text,Connect,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdBrowse.Text,Browse,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdCancel.Text,Cancel,

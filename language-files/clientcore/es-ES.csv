@@ -1065,6 +1065,14 @@ ClientCore/frmMibBrowser,Mib Browser Form,lblTitle.Text,Explorador MIB (OID),
 ClientCore/frmMibBrowser,Mib Browser Form,lblvarType.Text,Tipo de variable:,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentError,Error al cargar el componente,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentErrorReloadMibs,"Ocurrió un error de componente al cargar las MIBs SNMP. El cliente de configuración intentó corregir el problema, pero es necesario reiniciar el cliente de configuración. Reinicie el cliente e inténtelo de nuevo. ",
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,$this.Text,Configuración general no compatible,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnCancel.Text,Cancelar,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnConvertScalars.Text,Convertir valores escalares,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnExportWithout.Text,Exportar sin configuración,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,lblDescription.Text,"La siguiente configuración general no se puede conservar al guardar en {0}:
+{1}
+
+Cancelar mantiene la configuración sin cambios. La conversión de valores escalares solo está disponible si el destino puede representar todos los valores conservados.",
 ClientCore/frmToolsConnect,Tools Connect Form,$this.Text,Connect,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdBrowse.Text,Browse,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdCancel.Text,Cancel,

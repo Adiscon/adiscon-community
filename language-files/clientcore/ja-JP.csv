@@ -1061,6 +1061,14 @@ ClientCore/frmMibBrowser,Mib Browser Form,lblTitle.Text,MIB ブラウザ (OID),
 ClientCore/frmMibBrowser,Mib Browser Form,lblvarType.Text,可変タイプ:,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentError,コンポーネント読み込みのエラー,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentErrorReloadMibs,SNMP MIB の読み込み中にコンポーネントエラーが発生しました。問題修復のために一旦設定クライアントを閉じ、再び起動させてください。 ,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,$this.Text,サポートされていない全般設定,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnCancel.Text,キャンセル,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnConvertScalars.Text,スカラー設定を変換,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnExportWithout.Text,設定を除外してエクスポート,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,lblDescription.Text,"次の全般設定は {0} に保存すると保持できません:
+{1}
+
+キャンセルすると構成は変更されません。スカラー設定の変換は、保存先ですべての保持対象設定を表現できる場合にのみ使用できます。",
 ClientCore/frmToolsConnect,Tools Connect Form,$this.Text,Connect,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdBrowse.Text,Browse,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdCancel.Text,Cancel,

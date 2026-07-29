@@ -1065,6 +1065,14 @@ ClientCore/frmMibBrowser,Mib Browser Form,lblTitle.Text,MIB-brauser (OID),
 ClientCore/frmMibBrowser,Mib Browser Form,lblvarType.Text,Muutuja tüüp:,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentError,Viga komponendi laadimisel,
 ClientCore/frmMibBrowser,Mib Browser Form,szComponentErrorReloadMibs,"SNMP Mibsi laadimisel ilmnes komponendi viga. Konfiguratsiooniklient üritas probleemi lahendada, kuid konfiguratsioonikliendi taaskäivitamine on vajalik. Taaskäivitage klient ja proovige uuesti.",
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,$this.Text,Toetamata üldsätted,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnCancel.Text,Loobu,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnConvertScalars.Text,Teisenda skalaarseid sätteid,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,btnExportWithout.Text,Ekspordi säteteta,
+ClientCore/frmOpaqueGeneralExportOptions,Opaque General Export Options Form,lblDescription.Text,"Järgmisi üldsätteid ei saa vormingusse {0} salvestamisel säilitada:
+{1}
+
+Loobu jätab konfiguratsiooni muutmata. Skalaarsete sätete teisendamine on võimalik ainult siis, kui sihtkoht saab esitada kõik säilitatavad sätted.",
 ClientCore/frmToolsConnect,Tools Connect Form,$this.Text,Connect,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdBrowse.Text,Browse,
 ClientCore/frmToolsConnect,Tools Connect Form,cmdCancel.Text,Cancel,
