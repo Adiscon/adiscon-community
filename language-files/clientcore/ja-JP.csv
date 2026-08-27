@@ -1394,6 +1394,7 @@ ClientCore/xml.languagefiles/Action.File,File Action,nLogRotateTimeOfTheDayThusd
 ClientCore/xml.languagefiles/Action.File,File Action,nLogRotateTimeOfTheDayTuesday,火曜日,JTC:Tuesday
 ClientCore/xml.languagefiles/Action.File,File Action,nLogRotateTimeOfTheDayWednesday,水曜日,JTC:Wednesday
 ClientCore/xml.languagefiles/Action.File,File Action,nLogRotateTimeout,指定値より古いログファイルをローテーション,JTC:Rotate logfiles older than:
+ClientCore/xml.languagefiles/Action.File,File Action,nLogRotateTimeoutUnit,単位,JTC:Unit
 ClientCore/xml.languagefiles/Action.File,File Action,nLogZipAfterRotate,ログローテーション後に圧縮する,JTC:Compress file after log rotation
 ClientCore/xml.languagefiles/Action.File,File Action,nLogZipAfterRotateFormat,圧縮フォーマット,JTC:Compression Format
 ClientCore/xml.languagefiles/Action.File,File Action,nLogZipCompressionLevel,圧縮レベル,JTC:Compression Level
@@ -1446,6 +1447,14 @@ application.log.2 → さらに古いログファイル（ローテーション�
 
 「ファイル名に日付を出力」を無効にしますか？",JTC:Log rotation automatically manages file names when rotating. Example and explanation of redundancy with 'Create unique filenames'.
 ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateDisableUniqueFilenameTitle,ログローテーション,JTC:Log Rotation
+ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateTimeoutUnitDays,日,JTC:Days
+ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateTimeoutUnitHours,時間,JTC:Hours
+ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateTimeoutUnitMinutes,分,JTC:Minutes
+ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateTimeoutUnitMonths,月,JTC:Months
+ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateTimeoutUnitSeconds,秒,JTC:Seconds
+ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateTimeoutUnitWeeks,週,JTC:Weeks
+ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateTimeoutWarningText,5分未満の間隔でログファイルをローテーションすると、多数のファイルが作成され、ログ処理のパフォーマンスに影響する可能性があります。この間隔を維持しますか？,JTC:Rotating log files more often than every five minutes can create many files and affect logging performance. Do you want to keep this interval?
+ClientCore/xml.languagefiles/Action.File,File Action,szLogRotateTimeoutWarningTitle,短いログローテーション間隔,JTC:Short log rotation interval
 ClientCore/xml.languagefiles/Action.File,File Action,szLogZipGzip,GZIP(.gz)圧縮,JTC:GZIP (.gz) Compression
 ClientCore/xml.languagefiles/Action.File,File Action,szLogZipZip,ZIP(.zip)圧縮,ZIP (.zip) Compression
 ClientCore/xml.languagefiles/Action.File,File Action,szRotateConditions,ローテーションの条件,JTC:Rotate Conditions
