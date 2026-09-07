@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "Adiscon/adiscon-client-ng",
+  "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa",
+  "communityRepository": "Adiscon/adiscon-community",
+  "cultures": [
+    "en-US",
+    "de-DE",
+    "es-ES",
+    "et-EE",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "pt-BR"
+  ],
+  "products": [
+    {
+      "project": "MWAgent.Client.WinUI",
+      "communityProduct": "monitorware"
+    },
+    {
+      "project": "RSyslogConfigClient.WinUI",
+      "communityProduct": "rsyslog-agent"
+    },
+    {
+      "project": "CFGEvntSLog.WinUI",
+      "communityProduct": "eventreporter"
+    },
+    {
+      "project": "WINSyslogClient.WinUI",
+      "communityProduct": "winsyslog"
+    }
+  ],
+  "catalogs": [
+    {
+      "path": "language-files/monitorware/en-US.csv",
+      "product": "monitorware",
+      "culture": "en-US",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/monitorware/de-DE.csv",
+      "product": "monitorware",
+      "culture": "de-DE",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/monitorware/es-ES.csv",
+      "product": "monitorware",
+      "culture": "es-ES",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/monitorware/et-EE.csv",
+      "product": "monitorware",
+      "culture": "et-EE",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/monitorware/fr-FR.csv",
+      "product": "monitorware",
+      "culture": "fr-FR",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/monitorware/it-IT.csv",
+      "product": "monitorware",
+      "culture": "it-IT",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/monitorware/ja-JP.csv",
+      "product": "monitorware",
+      "culture": "ja-JP",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/monitorware/pt-BR.csv",
+      "product": "monitorware",
+      "culture": "pt-BR",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/rsyslog-agent/en-US.csv",
+      "product": "rsyslog-agent",
+      "culture": "en-US",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/rsyslog-agent/de-DE.csv",
+      "product": "rsyslog-agent",
+      "culture": "de-DE",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/rsyslog-agent/es-ES.csv",
+      "product": "rsyslog-agent",
+      "culture": "es-ES",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/rsyslog-agent/et-EE.csv",
+      "product": "rsyslog-agent",
+      "culture": "et-EE",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/rsyslog-agent/fr-FR.csv",
+      "product": "rsyslog-agent",
+      "culture": "fr-FR",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/rsyslog-agent/it-IT.csv",
+      "product": "rsyslog-agent",
+      "culture": "it-IT",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/rsyslog-agent/ja-JP.csv",
+      "product": "rsyslog-agent",
+      "culture": "ja-JP",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/rsyslog-agent/pt-BR.csv",
+      "product": "rsyslog-agent",
+      "culture": "pt-BR",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/eventreporter/en-US.csv",
+      "product": "eventreporter",
+      "culture": "en-US",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/eventreporter/de-DE.csv",
+      "product": "eventreporter",
+      "culture": "de-DE",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/eventreporter/es-ES.csv",
+      "product": "eventreporter",
+      "culture": "es-ES",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/eventreporter/et-EE.csv",
+      "product": "eventreporter",
+      "culture": "et-EE",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/eventreporter/fr-FR.csv",
+      "product": "eventreporter",
+      "culture": "fr-FR",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/eventreporter/it-IT.csv",
+      "product": "eventreporter",
+      "culture": "it-IT",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/eventreporter/ja-JP.csv",
+      "product": "eventreporter",
+      "culture": "ja-JP",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/eventreporter/pt-BR.csv",
+      "product": "eventreporter",
+      "culture": "pt-BR",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/winsyslog/en-US.csv",
+      "product": "winsyslog",
+      "culture": "en-US",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/winsyslog/de-DE.csv",
+      "product": "winsyslog",
+      "culture": "de-DE",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/winsyslog/es-ES.csv",
+      "product": "winsyslog",
+      "culture": "es-ES",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/winsyslog/et-EE.csv",
+      "product": "winsyslog",
+      "culture": "et-EE",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/winsyslog/fr-FR.csv",
+      "product": "winsyslog",
+      "culture": "fr-FR",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/winsyslog/it-IT.csv",
+      "product": "winsyslog",
+      "culture": "it-IT",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/winsyslog/ja-JP.csv",
+      "product": "winsyslog",
+      "culture": "ja-JP",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    },
+    {
+      "path": "language-files/winsyslog/pt-BR.csv",
+      "product": "winsyslog",
+      "culture": "pt-BR",
+      "sourceRevision": "887366d263754e501eac3724e01d30b67a1047fa"
+    }
+  ]
+}
