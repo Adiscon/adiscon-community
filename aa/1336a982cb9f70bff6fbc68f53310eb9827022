@@ -1,0 +1,85 @@
+language-files-user-interface/README.md
+  s_515d24d708742b::t_52cc51db7baca8 3
+language-files-user-interface/catalog-metadata.json
+  s_515d24d708742b::t_485bfe015d5993 3,5,40,46,52,58,64,70,76,82,88,94,100,106,112,118,124,130,136,142,148,154,160,166,172,178,184,190,196,202,208,214,220,226
+language-files-user-interface/eventreporter/de-DE.csv
+  s_515d24d708742b::t_da7ead9424ba7e 2-879,882-967,977-1005,1008-1053,1057-1072,1075-1206
+language-files-user-interface/eventreporter/en-US.csv
+  s_515d24d708742b::t_4c27c233a3301d 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/eventreporter/es-ES.csv
+  s_515d24d708742b::t_b0c1518b54da21 2-879,883-968,978-1006,1008-1053,1057-1072,1075-1206
+language-files-user-interface/eventreporter/et-EE.csv
+  s_515d24d708742b::t_b3cafb12d0ba3d 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/eventreporter/fr-FR.csv
+  s_515d24d708742b::t_fe8247794591d4 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/eventreporter/it-IT.csv
+  s_515d24d708742b::t_46be5efd6295b8 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/eventreporter/ja-JP.csv
+  s_515d24d708742b::t_0b528b514a6c3d 2-879,882-967,984-1012,1015-1060,1064-1075,1077-1080,1083-1125,1127-1215
+language-files-user-interface/eventreporter/pt-BR.csv
+  s_515d24d708742b::t_f3abcf96a30553 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/monitorware/de-DE.csv
+  s_515d24d708742b::t_bb03b8c0aed98f 2-878,881-966,976-1004,1007-1052,1056-1071,1074-1205
+language-files-user-interface/monitorware/en-US.csv
+  s_515d24d708742b::t_48327e9805b5ba 2-878,882-967,977-1005,1008-1053,1057-1072,1075-1117,1119-1207
+language-files-user-interface/monitorware/es-ES.csv
+  s_515d24d708742b::t_1f726f1647d0d1 2-878,882-967,977-1005,1007-1052,1056-1071,1074-1205
+language-files-user-interface/monitorware/et-EE.csv
+  s_515d24d708742b::t_479bebbe941f50 2-878,882-967,977-1005,1008-1053,1057-1072,1075-1117,1119-1207
+language-files-user-interface/monitorware/fr-FR.csv
+  s_515d24d708742b::t_897fba947d3d3a 2-878,882-967,977-1005,1008-1053,1057-1072,1075-1117,1119-1207
+language-files-user-interface/monitorware/it-IT.csv
+  s_515d24d708742b::t_057b414f6426b8 2-878,882-967,977-1005,1008-1053,1057-1072,1075-1117,1119-1207
+language-files-user-interface/monitorware/ja-JP.csv
+  s_515d24d708742b::t_d1a0cc233dc982 2-878,881-966,983-1011,1014-1059,1063-1074,1076-1079,1082-1124,1126-1214
+language-files-user-interface/monitorware/pt-BR.csv
+  s_515d24d708742b::t_3771c5d18d9d97 2-878,882-967,977-1005,1008-1053,1057-1072,1075-1117,1119-1207
+language-files-user-interface/rsyslog-agent/de-DE.csv
+  s_515d24d708742b::t_f80667183fecd1 2-879,882-967,977-1005,1008-1053,1057-1072,1075-1206
+language-files-user-interface/rsyslog-agent/en-US.csv
+  s_515d24d708742b::t_2507a62c1da0a9 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/rsyslog-agent/es-ES.csv
+  s_515d24d708742b::t_6cadbd05efcb0a 2-879,883-968,978-1006,1008-1053,1057-1072,1075-1206
+language-files-user-interface/rsyslog-agent/et-EE.csv
+  s_515d24d708742b::t_6795e7a0a3519d 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/rsyslog-agent/fr-FR.csv
+  s_515d24d708742b::t_9e45631271d9a2 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/rsyslog-agent/it-IT.csv
+  s_515d24d708742b::t_9b30700590016e 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/rsyslog-agent/ja-JP.csv
+  s_515d24d708742b::t_c73ea565e1c87e 2-879,882-967,984-1012,1015-1060,1064-1075,1077-1080,1083-1125,1127-1215
+language-files-user-interface/rsyslog-agent/pt-BR.csv
+  s_515d24d708742b::t_c75fba60d44266 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/winsyslog/de-DE.csv
+  s_515d24d708742b::t_b8ba0a335acf85 2-879,882-967,977-1005,1008-1053,1057-1072,1075-1206
+language-files-user-interface/winsyslog/en-US.csv
+  s_515d24d708742b::t_e838a0811c931f 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/winsyslog/es-ES.csv
+  s_515d24d708742b::t_2bd8f83fa89c12 2-879,883-968,978-1006,1008-1053,1057-1072,1075-1206
+language-files-user-interface/winsyslog/et-EE.csv
+  s_515d24d708742b::t_ecb5a8f3847f3c 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/winsyslog/fr-FR.csv
+  s_515d24d708742b::t_40dcaeb9bd6154 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/winsyslog/it-IT.csv
+  s_515d24d708742b::t_5cc41ae6a8de78 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+language-files-user-interface/winsyslog/ja-JP.csv
+  s_515d24d708742b::t_d399278737bef7 2-879,882-967,984-1012,1015-1060,1064-1075,1077-1080,1083-1125,1127-1215
+language-files-user-interface/winsyslog/pt-BR.csv
+  s_515d24d708742b::t_112812e038da5a 2-879,883-968,978-1006,1009-1054,1058-1073,1076-1118,1120-1208
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "aa1336a982cb9f70bff6fbc68f53310eb9827022",
+  "prompts": {},
+  "sessions": {
+    "s_515d24d708742b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a05cb6-d65b-7970-98c0-f4d357be4807",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Andre Lorbach <alorbach@adiscon.com>"
+    }
+  }
+}
