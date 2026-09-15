@@ -1311,7 +1311,7 @@ ClientCore/xml.languagefiles/Action.AzureBlobArchive,Azure Blob Archive Action,s
 ClientCore/xml.languagefiles/Action.AzureBlobArchive,Azure Blob Archive Action,szSasTokenFile.tooltip,"Chemin d'un fichier texte local avec un jeton SAS commençant par ?. Le jeton n'est jamais enregistré, affiché ou journalisé.",
 ClientCore/xml.languagefiles/Action.AzureBlobArchive,Azure Blob Archive Action,szSpoolDirectory,Répertoire de spool local,
 ClientCore/xml.languagefiles/Action.AzureBlobArchive,Azure Blob Archive Action,szSpoolDirectory.tooltip,File d'attente locale durable pour les segments gzip NDJSON. L'archive n'accepte plus de nouveaux événements à 1 Gio.,
-ClientCore/xml.languagefiles/Action.AzureBlobArchive,Azure Blob Archive Action,szSpoolInfo,Les segments sont finalisés à 4 Mio ou 60 secondes et téléchargés comme blobs gzip NDJSON immuables. Les fichiers restent jusqu'à la confirmation Azure ; le démarrage récupère les segments en attente.,
+ClientCore/xml.languagefiles/Action.AzureBlobArchive,Azure Blob Archive Action,szSpoolInfo,Les segments sont finalisés à 4 Mio ou 60 secondes et téléversés vers Azure sous forme de blobs gzip NDJSON immuables. Les fichiers restent jusqu'à la confirmation Azure ; le démarrage récupère les segments en attente.,
 ClientCore/xml.languagefiles/Action.CallRuleSet,Call Rule Set Action,szRuleSet,RuleSet à traiter,
 ClientCore/xml.languagefiles/Action.ComputeStatusVariable,Compute Status Variable Action,lblDecrement,Valeur de décrémentation (-),
 ClientCore/xml.languagefiles/Action.ComputeStatusVariable,Compute Status Variable Action,lblIncrement,Valeur d'incrément (+),
