@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceDisplayName": "Adiscon User Interface",
-  "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab",
+  "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c",
   "communityRepository": "Adiscon/adiscon-community",
   "cultures": [
     "en-US",
@@ -36,193 +36,193 @@
       "path": "monitorware/en-US.csv",
       "product": "monitorware",
       "culture": "en-US",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "monitorware/de-DE.csv",
       "product": "monitorware",
       "culture": "de-DE",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "monitorware/es-ES.csv",
       "product": "monitorware",
       "culture": "es-ES",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "monitorware/et-EE.csv",
       "product": "monitorware",
       "culture": "et-EE",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "monitorware/fr-FR.csv",
       "product": "monitorware",
       "culture": "fr-FR",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "monitorware/it-IT.csv",
       "product": "monitorware",
       "culture": "it-IT",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "monitorware/ja-JP.csv",
       "product": "monitorware",
       "culture": "ja-JP",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "monitorware/pt-BR.csv",
       "product": "monitorware",
       "culture": "pt-BR",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "rsyslog-agent/en-US.csv",
       "product": "rsyslog-agent",
       "culture": "en-US",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "rsyslog-agent/de-DE.csv",
       "product": "rsyslog-agent",
       "culture": "de-DE",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "rsyslog-agent/es-ES.csv",
       "product": "rsyslog-agent",
       "culture": "es-ES",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "rsyslog-agent/et-EE.csv",
       "product": "rsyslog-agent",
       "culture": "et-EE",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "rsyslog-agent/fr-FR.csv",
       "product": "rsyslog-agent",
       "culture": "fr-FR",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "rsyslog-agent/it-IT.csv",
       "product": "rsyslog-agent",
       "culture": "it-IT",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "rsyslog-agent/ja-JP.csv",
       "product": "rsyslog-agent",
       "culture": "ja-JP",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "rsyslog-agent/pt-BR.csv",
       "product": "rsyslog-agent",
       "culture": "pt-BR",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "eventreporter/en-US.csv",
       "product": "eventreporter",
       "culture": "en-US",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "eventreporter/de-DE.csv",
       "product": "eventreporter",
       "culture": "de-DE",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "eventreporter/es-ES.csv",
       "product": "eventreporter",
       "culture": "es-ES",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "eventreporter/et-EE.csv",
       "product": "eventreporter",
       "culture": "et-EE",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "eventreporter/fr-FR.csv",
       "product": "eventreporter",
       "culture": "fr-FR",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "eventreporter/it-IT.csv",
       "product": "eventreporter",
       "culture": "it-IT",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "eventreporter/ja-JP.csv",
       "product": "eventreporter",
       "culture": "ja-JP",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "eventreporter/pt-BR.csv",
       "product": "eventreporter",
       "culture": "pt-BR",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "winsyslog/en-US.csv",
       "product": "winsyslog",
       "culture": "en-US",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "winsyslog/de-DE.csv",
       "product": "winsyslog",
       "culture": "de-DE",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "winsyslog/es-ES.csv",
       "product": "winsyslog",
       "culture": "es-ES",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "winsyslog/et-EE.csv",
       "product": "winsyslog",
       "culture": "et-EE",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "winsyslog/fr-FR.csv",
       "product": "winsyslog",
       "culture": "fr-FR",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "winsyslog/it-IT.csv",
       "product": "winsyslog",
       "culture": "it-IT",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "winsyslog/ja-JP.csv",
       "product": "winsyslog",
       "culture": "ja-JP",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     },
     {
       "path": "winsyslog/pt-BR.csv",
       "product": "winsyslog",
       "culture": "pt-BR",
-      "sourceRevision": "edd9fe10d4a120194e4a0a1e60a5d04d661b79ab"
+      "sourceRevision": "250a173d7868e1c009b6081b71d045c292283e7c"
     }
   ]
 }
